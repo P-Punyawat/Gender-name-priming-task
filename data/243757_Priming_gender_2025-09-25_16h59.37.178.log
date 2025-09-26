@@ -1,0 +1,43 @@
+6.9176 	INFO 	Loaded monitor calibration from ['2025_09_24 10:44']
+7.1225 	INFO 	Using renderer 'AMD Radeon(TM) Graphics' for graphics
+7.1226 	INFO 	OpenGL version supported by driver is 4..
+7.1580 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=True, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001D613A03370>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001D613A03310>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=True, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000001D613AB52A0>, multiSample=False, name='window1', numSamples=2, pos=[np.float64(0.0), np.float64(0.0)], screen=0, size=array([1920, 1080]), stencilBits=8, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+7.1581 	EXP 	window1: backgroundImage = ''
+7.1581 	EXP 	window1: backgroundFit = 'none'
+7.5306 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+7.5306 	EXP 	window1: recordFrameIntervals = False
+7.7904 	EXP 	window1: recordFrameIntervals = True
+7.9911 	EXP 	Screen (0) actual frame rate measured at 59.31Hz
+7.9911 	EXP 	window1: recordFrameIntervals = False
+8.0597 	INFO 	keyboard.Keyboard is using ptb backend.
+8.0599 	INFO 	keyboard.Keyboard is using ptb backend.
+8.0600 	INFO 	keyboard.Keyboard is using ptb backend.
+8.0600 	EXP 	Priming_gender: status = STARTED
+8.1432 	EXP 	Created MAN = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.1), italic=False, languageStyle='LTR', name='MAN', opacity=1, ori=0.0, pos=array([0.8, 0.8]), rgb=UNKNOWN, text='MAN', units='norm', win=Window(...), wrapWidth=1)
+8.1490 	EXP 	Created WOMAN = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.1), italic=False, languageStyle='LTR', name='WOMAN', opacity=1, ori=0.0, pos=array([-0.8,  0.8]), rgb=UNKNOWN, text='WOMAN', units='norm', win=Window(...), wrapWidth=1)
+8.1528 	EXP 	Created pic = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=np.False_, flipVert=np.False_, image='default.png', interpolate=True, mask=None, maskParams=None, name='pic', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), texRes=128.0, units='norm', win=Window(...))
+8.1553 	EXP 	Created error_feedback = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-4.0, draggable=False, fillColor=array([ 1, -1, -1]), fillColorSpace='rgb', fillRGB=array([ 1, -1, -1]), interpolate=True, lineColor=array([ 1., -1., -1.]), lineColorSpace='rgb', lineRGB=array([ 1, -1, -1]), lineWidth=1.0, name='error_feedback', opacity=1, ori=45.0, pos=array([0., 0.]), size=array([0.5, 0.5]), units='norm', vertices=ndarray(...), win=Window(...), windingRule=None)
+8.1571 	EXP 	Created MAN_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.1), italic=False, languageStyle='LTR', name='MAN_3', opacity=1, ori=0.0, pos=array([0.8, 0.8]), rgb=UNKNOWN, text='MAN', units='norm', win=Window(...), wrapWidth=1)
+8.1591 	EXP 	Created WOMAN_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.1), italic=False, languageStyle='LTR', name='WOMAN_3', opacity=1, ori=0.0, pos=array([-0.8,  0.8]), rgb=UNKNOWN, text='WOMAN', units='norm', win=Window(...), wrapWidth=1)
+8.1816 	EXP 	Created pic_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, draggable=False, flipHoriz=np.False_, flipVert=np.False_, image='default.png', interpolate=True, mask=None, maskParams=None, name='pic_2', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), texRes=128.0, units='norm', win=Window(...))
+0.0064 	EXP 	name_2: autoLog = True
+0.0125 	EXP 	Imported Training loop.csv as conditions, 2 conditions, 6 params
+0.0129 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'Male': 'กฤษณะ', 'Female': 'กาญจนา', 'Image': 'men.png', 'Name': 'กฤษณะ', 'ImagePriming': 'men.png', 'NamePriming': 'กฤษณะ', 'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+0.0379 	INFO 	Keyboard events cleared
+0.0378 	EXP 	pic: image = 'men.png'
+0.0378 	EXP 	MAN: autoDraw = True
+0.0378 	EXP 	WOMAN: autoDraw = True
+0.0378 	EXP 	pic: autoDraw = True
+5.2097 	EXP 	Device response: <KeyPress from None: t=5.205310499994084, value=escape, duration=None>
+5.2107 	DATA 	Keypress: escape
+5.3406 	EXP 	Device response: <KeyPress from None: t=5.205310499994084, value=escape, duration=0.12620569998398423>
+5.3407 	EXP 	Priming_gender: status = STOPPED
+5.3566 	EXP 	MAN: autoDraw = False
+5.3566 	EXP 	WOMAN: autoDraw = False
+5.3566 	EXP 	pic: autoDraw = False
+5.3567 	EXP 	Priming_gender: status = STOPPED
+5.3595 	INFO 	saved data to 'C:\\Users\\engpc\\Downloads\\Neuromarketing\\Neuromarketing\\Pilot\\data\\243757_Priming_gender_2025-09-25_16h59.37.178.csv'
+5.3610 	INFO 	saved data to C:\Users\engpc\Downloads\Neuromarketing\Neuromarketing\Pilot\data\243757_Priming_gender_2025-09-25_16h59.37.178.psydat
+5.5013 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+5.5328 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+5.5329 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.

@@ -1,0 +1,22 @@
+6.3627 	INFO 	Loaded monitor calibration from ['2025_09_24 10:44']
+6.5525 	INFO 	Using renderer 'AMD Radeon(TM) Graphics' for graphics
+6.5525 	INFO 	OpenGL version supported by driver is 4..
+6.5859 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=True, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x000002AFECF42A10>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x000002AFECF42A70>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=True, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000002AFED025F30>, multiSample=False, name='window1', numSamples=2, pos=[np.float64(0.0), np.float64(0.0)], screen=0, size=array([1920, 1080]), stencilBits=8, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+6.5860 	EXP 	window1: backgroundImage = ''
+6.5860 	EXP 	window1: backgroundFit = 'none'
+6.9530 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+6.9530 	EXP 	window1: recordFrameIntervals = False
+7.2285 	EXP 	window1: recordFrameIntervals = True
+7.4265 	EXP 	Screen (0) actual frame rate measured at 59.98Hz
+7.4265 	EXP 	window1: recordFrameIntervals = False
+7.4913 	INFO 	keyboard.Keyboard is using ptb backend.
+7.4914 	INFO 	keyboard.Keyboard is using ptb backend.
+7.4915 	INFO 	keyboard.Keyboard is using ptb backend.
+7.4915 	INFO 	keyboard.Keyboard is using ptb backend.
+7.4915 	EXP 	Priming_gender: status = STARTED
+7.5895 	INFO 	saved data to C:\Users\engpc\Downloads\Neuromarketing\Neuromarketing\Pilot\data\987725_Priming_gender_2025-09-25_17h07.45.446.psydat
+7.5903 	INFO 	saved data to 'C:\\Users\\engpc\\Downloads\\Neuromarketing\\Neuromarketing\\Pilot\\data\\987725_Priming_gender_2025-09-25_17h07.45.446.csv'
+7.5981 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+7.6932 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+7.6933 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+7.6933 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.

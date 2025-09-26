@@ -1,0 +1,22 @@
+8.9615 	INFO 	Loaded monitor calibration from ['2025_09_24 10:44']
+8.9743 	WARNING 	User requested fullscreen with size [1024  768], but screen is actually [1920, 1080]. Using actual size
+9.1815 	INFO 	Using renderer 'AMD Radeon(TM) Graphics' for graphics
+9.1815 	INFO 	OpenGL version supported by driver is 4..
+9.2162 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=True, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x00000208453AAA40>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x00000208453AAAA0>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=True, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x0000020845482E90>, multiSample=False, name='window1', numSamples=2, pos=[np.float64(0.0), np.float64(0.0)], screen=0, size=array([1920, 1080]), stencilBits=8, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+9.2163 	EXP 	window1: backgroundImage = ''
+9.2163 	EXP 	window1: backgroundFit = 'none'
+9.5813 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+9.5813 	EXP 	window1: recordFrameIntervals = False
+9.8232 	EXP 	window1: recordFrameIntervals = True
+10.0083 	EXP 	Screen (0) actual frame rate measured at 60.00Hz
+10.0083 	EXP 	window1: recordFrameIntervals = False
+10.0648 	INFO 	keyboard.Keyboard is using ptb backend.
+10.0649 	INFO 	keyboard.Keyboard is using ptb backend.
+10.0650 	EXP 	Priming_gender: status = STARTED
+10.1381 	EXP 	Created MAN = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.1), italic=False, languageStyle='LTR', name='MAN', opacity=1, ori=0.0, pos=array([0.8, 0.8]), rgb=UNKNOWN, text='MAN', units='norm', win=Window(...), wrapWidth=1)
+10.1428 	EXP 	Created WOMAN = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.1), italic=False, languageStyle='LTR', name='WOMAN', opacity=1, ori=0.0, pos=array([-0.8,  0.8]), rgb=UNKNOWN, text='WOMAN', units='norm', win=Window(...), wrapWidth=1)
+10.1466 	EXP 	Created pic = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=np.False_, flipVert=np.False_, image='default.png', interpolate=True, mask=None, maskParams=None, name='pic', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='norm', win=Window(...))
+0.0544 	INFO 	saved data to C:\Users\engpc\Downloads\Neuromarketing\Neuromarketing\Pilot\data\492684_Priming_gender_2025-09-25_15h32.22.127.psydat
+0.0552 	INFO 	saved data to 'C:\\Users\\engpc\\Downloads\\Neuromarketing\\Neuromarketing\\Pilot\\data\\492684_Priming_gender_2025-09-25_15h32.22.127.csv'
+0.0694 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+0.1206 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.

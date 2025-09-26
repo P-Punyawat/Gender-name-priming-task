@@ -1,0 +1,85 @@
+13.4668 	INFO 	Loaded monitor calibration from ['2025_09_24 10:44']
+13.7771 	INFO 	Using renderer 'AMD Radeon(TM) Graphics' for graphics
+13.7771 	INFO 	OpenGL version supported by driver is 4..
+13.8326 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=True, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000025FDEDEE980>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000025FDEDEEA70>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=True, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x0000025FDEECA050>, multiSample=False, name='window1', numSamples=2, pos=[np.float64(0.0), np.float64(0.0)], screen=0, size=array([1920, 1080]), stencilBits=8, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+13.8328 	EXP 	window1: backgroundImage = ''
+13.8328 	EXP 	window1: backgroundFit = 'none'
+14.4759 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+14.4760 	EXP 	window1: recordFrameIntervals = False
+14.7177 	EXP 	window1: recordFrameIntervals = True
+14.9674 	EXP 	Screen (0) actual frame rate measured at 59.59Hz
+14.9675 	EXP 	window1: recordFrameIntervals = False
+15.0500 	INFO 	keyboard.Keyboard is using ptb backend.
+15.0502 	INFO 	keyboard.Keyboard is using ptb backend.
+15.0503 	INFO 	keyboard.Keyboard is using ptb backend.
+15.0504 	INFO 	keyboard.Keyboard is using ptb backend.
+15.0506 	INFO 	keyboard.Keyboard is using ptb backend.
+15.0506 	EXP 	Priming_gender: status = STARTED
+15.0700 	EXP 	Created instruction_slide = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=True, flipHoriz=np.False_, flipVert=np.False_, image='Instruction.png', interpolate=True, mask=None, maskParams=None, name='instruction_slide', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([2., 2.]), texRes=128.0, units='norm', win=Window(...))
+15.1961 	EXP 	Created MAN = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.1), italic=False, languageStyle='LTR', name='MAN', opacity=1, ori=0.0, pos=array([0.8, 0.8]), rgb=UNKNOWN, text='MAN', units='norm', win=Window(...), wrapWidth=1)
+15.2033 	EXP 	Created WOMAN = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.1), italic=False, languageStyle='LTR', name='WOMAN', opacity=1, ori=0.0, pos=array([-0.8,  0.8]), rgb=UNKNOWN, text='WOMAN', units='norm', win=Window(...), wrapWidth=1)
+15.2098 	EXP 	Created pic = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=np.False_, flipVert=np.False_, image='default.png', interpolate=True, mask=None, maskParams=None, name='pic', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1.2, 1.2]), texRes=128.0, units='norm', win=Window(...))
+15.2159 	EXP 	Created error_feedback = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-4.0, draggable=False, fillColor=array([ 1, -1, -1]), fillColorSpace='rgb', fillRGB=array([ 1, -1, -1]), interpolate=True, lineColor=array([ 1., -1., -1.]), lineColorSpace='rgb', lineRGB=array([ 1, -1, -1]), lineWidth=1.0, name='error_feedback', opacity=1, ori=45.0, pos=array([0., 0.]), size=array([0.5, 0.5]), units='norm', vertices=ndarray(...), win=Window(...), windingRule=None)
+15.2334 	EXP 	Created instruction_slide_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=True, flipHoriz=np.False_, flipVert=np.False_, image='Instruction.png', interpolate=True, mask=None, maskParams=None, name='instruction_slide_2', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([2., 2.]), texRes=128.0, units='norm', win=Window(...))
+15.2368 	EXP 	Created MAN_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.1), italic=False, languageStyle='LTR', name='MAN_3', opacity=1, ori=0.0, pos=array([0.8, 0.8]), rgb=UNKNOWN, text='MAN', units='norm', win=Window(...), wrapWidth=1)
+15.2504 	EXP 	Created MAN_3_desc = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.06), italic=False, languageStyle='LTR', name='MAN_3_desc', opacity=1, ori=0.0, pos=array([0.8, 0.7]), rgb=UNKNOWN, text='Press the k key', units='norm', win=Window(...), wrapWidth=1)
+15.2537 	EXP 	Created WOMAN_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.1), italic=False, languageStyle='LTR', name='WOMAN_3', opacity=1, ori=0.0, pos=array([-0.8,  0.8]), rgb=UNKNOWN, text='WOMAN', units='norm', win=Window(...), wrapWidth=1)
+15.2609 	EXP 	Created WOMAN_3_desc = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.06), italic=False, languageStyle='LTR', name='WOMAN_3_desc', opacity=1, ori=0.0, pos=array([-0.8,  0.7]), rgb=UNKNOWN, text='Press the j key', units='norm', win=Window(...), wrapWidth=1)
+15.2981 	EXP 	Created pic_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-6.0, draggable=False, flipHoriz=np.False_, flipVert=np.False_, image='default.png', interpolate=True, mask=None, maskParams=None, name='pic_2', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1.2, 1.2]), texRes=128.0, units='norm', win=Window(...))
+0.0072 	EXP 	name_2: autoLog = True
+0.0205 	INFO 	Keyboard events cleared
+0.0203 	EXP 	instruction_slide: autoDraw = True
+0.6933 	EXP 	Device response: <KeyPress from None: t=0.6840815000468865, value=space, duration=None>
+0.7048 	EXP 	Imported Training loop.csv as conditions, 2 conditions, 9 params
+0.7056 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'Male': 'กฤษณะ', 'Female': 'กาญจนา', 'Image': 'men.png', 'Name': 'กฤษณะ', 'ImagePriming': 'men.png', 'NamePriming': 'กฤษณะ', 'ImageTrig': np.int64(10), 'NameTrig': np.int64(50), 'Trig': np.int64(100), 'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+0.7384 	DATA 	Keypress: space
+0.7469 	INFO 	Keyboard events cleared
+0.7467 	EXP 	instruction_slide: autoDraw = False
+0.7467 	EXP 	pic: image = 'men.png'
+0.7467 	EXP 	MAN: autoDraw = True
+0.7467 	EXP 	WOMAN: autoDraw = True
+0.7467 	EXP 	pic: autoDraw = True
+0.7699 	EXP 	Device response: <KeyPress from None: t=0.6840815000468865, value=space, duration=0.07715999998617917>
+2.5354 	EXP 	Device response: <KeyPress from None: t=2.5215032000560313, value=j, duration=None>
+2.5358 	EXP 	New trial (rep=1, index=1): <Trial 1 (1 in rep 1) data={'Male': 'กฤษณะ', 'Female': 'กาญจนา', 'Image': 'men.png', 'Name': 'กฤษณะ', 'ImagePriming': 'men.png', 'NamePriming': 'กฤษณะ', 'ImageTrig': np.int64(10), 'NameTrig': np.int64(50), 'Trig': np.int64(100), 'thisN': 1, 'thisTrialN': 1, 'thisRepN': 1}>
+2.5658 	DATA 	Keypress: j
+2.5720 	INFO 	Keyboard events cleared
+2.5718 	EXP 	error_feedback: autoDraw = True
+2.5718 	EXP 	MAN: autoDraw = False
+2.5718 	EXP 	WOMAN: autoDraw = False
+2.5718 	EXP 	pic: autoDraw = False
+2.5718 	EXP 	error_feedback: autoDraw = False
+2.5718 	EXP 	pic: image = 'men.png'
+2.5718 	EXP 	MAN: autoDraw = True
+2.5718 	EXP 	WOMAN: autoDraw = True
+2.5718 	EXP 	pic: autoDraw = True
+2.6353 	EXP 	Device response: <KeyPress from None: t=2.5215032000560313, value=j, duration=0.09850949991960078>
+3.5520 	EXP 	Device response: <KeyPress from None: t=3.536944100051187, value=k, duration=None>
+3.5522 	EXP 	New trial (rep=0, index=2): <Trial 2 (2 in rep 0) data={'Male': 'นเรศ', 'Female': 'พิมพ์ใจ', 'Image': 'women.png', 'Name': 'นเรศ', 'ImagePriming': 'men.png', 'NamePriming': 'นเรศ', 'ImageTrig': np.int64(10), 'NameTrig': np.int64(51), 'Trig': np.int64(101), 'thisN': 2, 'thisTrialN': 2, 'thisRepN': 0}>
+3.5794 	DATA 	Keypress: k
+3.5853 	INFO 	Keyboard events cleared
+3.5852 	EXP 	error_feedback: autoDraw = False
+3.5852 	EXP 	MAN: autoDraw = False
+3.5852 	EXP 	WOMAN: autoDraw = False
+3.5852 	EXP 	pic: autoDraw = False
+3.5852 	EXP 	error_feedback: autoDraw = False
+3.5852 	EXP 	pic: image = 'women.png'
+3.5852 	EXP 	MAN: autoDraw = True
+3.5852 	EXP 	WOMAN: autoDraw = True
+3.5852 	EXP 	pic: autoDraw = True
+3.6190 	EXP 	Device response: <KeyPress from None: t=3.536944100051187, value=k, duration=0.07127199997194111>
+69.0315 	EXP 	Device response: <KeyPress from None: t=69.02963730006013, value=escape, duration=None>
+69.0326 	DATA 	Keypress: escape
+69.1812 	EXP 	Device response: <KeyPress from None: t=69.02963730006013, value=escape, duration=0.15060689998790622>
+69.1812 	EXP 	Priming_gender: status = STOPPED
+69.1967 	EXP 	MAN: autoDraw = False
+69.1967 	EXP 	WOMAN: autoDraw = False
+69.1967 	EXP 	pic: autoDraw = False
+69.1968 	EXP 	Priming_gender: status = STOPPED
+69.2066 	INFO 	saved data to 'C:\\Users\\engpc\\Downloads\\Pilot26_sep\\data\\084293_Priming_gender_2025-09-26_07h57.28.565.csv'
+69.2085 	INFO 	saved data to C:\Users\engpc\Downloads\Pilot26_sep\data\084293_Priming_gender_2025-09-26_07h57.28.565.psydat
+69.3773 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+69.3837 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+69.3838 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+69.3838 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+69.3838 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.

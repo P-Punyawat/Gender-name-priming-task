@@ -1,0 +1,972 @@
+13.1565 	INFO 	Loaded monitor calibration from ['2025_09_24 10:44']
+13.5234 	INFO 	Using renderer 'AMD Radeon(TM) Graphics' for graphics
+13.5235 	INFO 	OpenGL version supported by driver is 4..
+13.5800 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=True, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001EC26C0CCA0>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001EC26C0CD00>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=True, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000001EC26CA92D0>, multiSample=False, name='window1', numSamples=2, pos=[np.float64(0.0), np.float64(0.0)], screen=0, size=array([1920, 1080]), stencilBits=8, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+13.5801 	EXP 	window1: backgroundImage = ''
+13.5801 	EXP 	window1: backgroundFit = 'none'
+14.2441 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+14.2441 	EXP 	window1: recordFrameIntervals = False
+14.4900 	EXP 	window1: recordFrameIntervals = True
+14.6741 	EXP 	Screen (0) actual frame rate measured at 59.95Hz
+14.6742 	EXP 	window1: recordFrameIntervals = False
+14.7537 	INFO 	keyboard.Keyboard is using ptb backend.
+14.7539 	INFO 	keyboard.Keyboard is using ptb backend.
+14.7540 	INFO 	keyboard.Keyboard is using ptb backend.
+14.7541 	INFO 	keyboard.Keyboard is using ptb backend.
+14.7541 	INFO 	keyboard.Keyboard is using ptb backend.
+14.7541 	EXP 	Priming_gender: status = STARTED
+14.7763 	EXP 	Created instruction_slide = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=True, flipHoriz=np.False_, flipVert=np.False_, image='Instruction.png', interpolate=True, mask=None, maskParams=None, name='instruction_slide', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([2., 2.]), texRes=128.0, units='norm', win=Window(...))
+14.9203 	EXP 	Created MAN = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.1), italic=False, languageStyle='LTR', name='MAN', opacity=1, ori=0.0, pos=array([0.8, 0.8]), rgb=UNKNOWN, text='MAN', units='norm', win=Window(...), wrapWidth=1)
+14.9259 	EXP 	Created WOMAN = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.1), italic=False, languageStyle='LTR', name='WOMAN', opacity=1, ori=0.0, pos=array([-0.8,  0.8]), rgb=UNKNOWN, text='WOMAN', units='norm', win=Window(...), wrapWidth=1)
+14.9319 	EXP 	Created pic = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=np.False_, flipVert=np.False_, image='default.png', interpolate=True, mask=None, maskParams=None, name='pic', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1.2, 1.2]), texRes=128.0, units='norm', win=Window(...))
+14.9371 	EXP 	Created error_feedback = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-4.0, draggable=False, fillColor=array([ 1, -1, -1]), fillColorSpace='rgb', fillRGB=array([ 1, -1, -1]), interpolate=True, lineColor=array([ 1., -1., -1.]), lineColorSpace='rgb', lineRGB=array([ 1, -1, -1]), lineWidth=1.0, name='error_feedback', opacity=1, ori=45.0, pos=array([0., 0.]), size=array([0.5, 0.5]), units='norm', vertices=ndarray(...), win=Window(...), windingRule=None)
+14.9570 	EXP 	Created instruction_slide_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=True, flipHoriz=np.False_, flipVert=np.False_, image='Instruction.png', interpolate=True, mask=None, maskParams=None, name='instruction_slide_2', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([2., 2.]), texRes=128.0, units='norm', win=Window(...))
+14.9604 	EXP 	Created MAN_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.1), italic=False, languageStyle='LTR', name='MAN_3', opacity=1, ori=0.0, pos=array([0.8, 0.8]), rgb=UNKNOWN, text='MAN', units='norm', win=Window(...), wrapWidth=1)
+14.9728 	EXP 	Created MAN_3_desc = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.06), italic=False, languageStyle='LTR', name='MAN_3_desc', opacity=1, ori=0.0, pos=array([0.8, 0.7]), rgb=UNKNOWN, text='Press the k key', units='norm', win=Window(...), wrapWidth=1)
+14.9767 	EXP 	Created WOMAN_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.1), italic=False, languageStyle='LTR', name='WOMAN_3', opacity=1, ori=0.0, pos=array([-0.8,  0.8]), rgb=UNKNOWN, text='WOMAN', units='norm', win=Window(...), wrapWidth=1)
+14.9822 	EXP 	Created WOMAN_3_desc = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.06), italic=False, languageStyle='LTR', name='WOMAN_3_desc', opacity=1, ori=0.0, pos=array([-0.8,  0.7]), rgb=UNKNOWN, text='Press the j key', units='norm', win=Window(...), wrapWidth=1)
+15.3074 	EXP 	Created pic_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-6.0, draggable=False, flipHoriz=np.False_, flipVert=np.False_, image='default.png', interpolate=True, mask=None, maskParams=None, name='pic_2', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1.2, 1.2]), texRes=128.0, units='norm', win=Window(...))
+0.0081 	EXP 	name_2: autoLog = True
+0.0175 	INFO 	Keyboard events cleared
+0.0173 	EXP 	instruction_slide: autoDraw = True
+1.0049 	EXP 	Device response: <KeyPress from None: t=0.9865026000188664, value=space, duration=None>
+1.0167 	EXP 	Imported Training loop.csv as conditions, 2 conditions, 9 params
+1.0176 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'Male': 'กฤษณะ', 'Female': 'กาญจนา', 'Image': 'men.png', 'Name': 'กฤษณะ', 'ImagePriming': 'men.png', 'NamePriming': 'กฤษณะ', 'ImageTrig': np.int64(10), 'NameTrig': np.int64(50), 'Trig': np.int64(100), 'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+1.0532 	DATA 	Keypress: space
+1.0588 	INFO 	Keyboard events cleared
+1.0586 	EXP 	instruction_slide: autoDraw = False
+1.0586 	EXP 	pic: image = 'men.png'
+1.0586 	EXP 	MAN: autoDraw = True
+1.0586 	EXP 	WOMAN: autoDraw = True
+1.0586 	EXP 	pic: autoDraw = True
+1.1164 	EXP 	Device response: <KeyPress from None: t=0.9865026000188664, value=space, duration=0.1267016000347212>
+1.8324 	EXP 	Device response: <KeyPress from None: t=1.8180659000063315, value=j, duration=None>
+1.8329 	EXP 	New trial (rep=1, index=1): <Trial 1 (1 in rep 1) data={'Male': 'กฤษณะ', 'Female': 'กาญจนา', 'Image': 'men.png', 'Name': 'กฤษณะ', 'ImagePriming': 'men.png', 'NamePriming': 'กฤษณะ', 'ImageTrig': np.int64(10), 'NameTrig': np.int64(50), 'Trig': np.int64(100), 'thisN': 1, 'thisTrialN': 1, 'thisRepN': 1}>
+1.8664 	DATA 	Keypress: j
+1.8734 	INFO 	Keyboard events cleared
+1.8732 	EXP 	error_feedback: autoDraw = True
+1.8732 	EXP 	MAN: autoDraw = False
+1.8732 	EXP 	WOMAN: autoDraw = False
+1.8732 	EXP 	pic: autoDraw = False
+1.8732 	EXP 	error_feedback: autoDraw = False
+1.8732 	EXP 	pic: image = 'men.png'
+1.8732 	EXP 	MAN: autoDraw = True
+1.8732 	EXP 	WOMAN: autoDraw = True
+1.8732 	EXP 	pic: autoDraw = True
+1.9498 	EXP 	Device response: <KeyPress from None: t=1.8180659000063315, value=j, duration=0.1293683999683708>
+1.9998 	EXP 	Device response: <KeyPress from None: t=1.9858081999700516, value=k, duration=None>
+2.0001 	EXP 	New trial (rep=0, index=2): <Trial 2 (2 in rep 0) data={'Male': 'นเรศ', 'Female': 'พิมพ์ใจ', 'Image': 'women.png', 'Name': 'นเรศ', 'ImagePriming': 'men.png', 'NamePriming': 'นเรศ', 'ImageTrig': np.int64(10), 'NameTrig': np.int64(51), 'Trig': np.int64(101), 'thisN': 2, 'thisTrialN': 2, 'thisRepN': 0}>
+2.0301 	DATA 	Keypress: k
+2.0377 	INFO 	Keyboard events cleared
+2.0376 	EXP 	error_feedback: autoDraw = False
+2.0376 	EXP 	MAN: autoDraw = False
+2.0376 	EXP 	WOMAN: autoDraw = False
+2.0376 	EXP 	pic: autoDraw = False
+2.0376 	EXP 	error_feedback: autoDraw = False
+2.0376 	EXP 	pic: image = 'women.png'
+2.0376 	EXP 	MAN: autoDraw = True
+2.0376 	EXP 	WOMAN: autoDraw = True
+2.0376 	EXP 	pic: autoDraw = True
+2.1329 	EXP 	Device response: <KeyPress from None: t=1.9858081999700516, value=k, duration=0.13475200009997934>
+2.1329 	EXP 	Device response: <KeyPress from None: t=2.1250985000515357, value=j, duration=None>
+2.1333 	EXP 	New trial (rep=2, index=3): <Trial 3 (3 in rep 2) data={'Male': 'กฤษณะ', 'Female': 'กาญจนา', 'Image': 'men.png', 'Name': 'กฤษณะ', 'ImagePriming': 'men.png', 'NamePriming': 'กฤษณะ', 'ImageTrig': np.int64(10), 'NameTrig': np.int64(50), 'Trig': np.int64(100), 'thisN': 3, 'thisTrialN': 3, 'thisRepN': 2}>
+2.1633 	DATA 	Keypress: j
+2.1702 	INFO 	Keyboard events cleared
+2.1700 	EXP 	error_feedback: autoDraw = True
+2.1700 	EXP 	MAN: autoDraw = False
+2.1700 	EXP 	WOMAN: autoDraw = False
+2.1700 	EXP 	pic: autoDraw = False
+2.1700 	EXP 	error_feedback: autoDraw = False
+2.1700 	EXP 	pic: image = 'men.png'
+2.1700 	EXP 	MAN: autoDraw = True
+2.1700 	EXP 	WOMAN: autoDraw = True
+2.1700 	EXP 	pic: autoDraw = True
+2.2328 	EXP 	Device response: <KeyPress from None: t=2.1250985000515357, value=j, duration=0.1016667999792844>
+2.3005 	EXP 	Device response: <KeyPress from None: t=2.284992599976249, value=k, duration=None>
+2.3010 	EXP 	New trial (rep=3, index=4): <Trial 4 (4 in rep 3) data={'Male': 'กฤษณะ', 'Female': 'กาญจนา', 'Image': 'men.png', 'Name': 'กฤษณะ', 'ImagePriming': 'men.png', 'NamePriming': 'กฤษณะ', 'ImageTrig': np.int64(10), 'NameTrig': np.int64(50), 'Trig': np.int64(100), 'thisN': 4, 'thisTrialN': 4, 'thisRepN': 3}>
+2.3312 	EXP 	Device response: <KeyPress from None: t=2.3256193000124767, value=j, duration=None>
+2.3329 	DATA 	Keypress: k
+2.3331 	DATA 	Keypress: j
+2.3395 	INFO 	Keyboard events cleared
+2.3393 	EXP 	error_feedback: autoDraw = False
+2.3393 	EXP 	MAN: autoDraw = False
+2.3393 	EXP 	WOMAN: autoDraw = False
+2.3393 	EXP 	pic: autoDraw = False
+2.3393 	EXP 	error_feedback: autoDraw = False
+2.3393 	EXP 	pic: image = 'men.png'
+2.3393 	EXP 	MAN: autoDraw = True
+2.3393 	EXP 	WOMAN: autoDraw = True
+2.3393 	EXP 	pic: autoDraw = True
+2.3830 	EXP 	Device response: <KeyPress from None: t=2.284992599976249, value=k, duration=0.08242029999382794>
+2.4331 	EXP 	Device response: <KeyPress from None: t=2.3256193000124767, value=j, duration=0.10526470001786947>
+2.4653 	EXP 	Device response: <KeyPress from None: t=2.457844499964267, value=k, duration=None>
+2.4657 	EXP 	New trial (rep=1, index=5): <Trial 5 (5 in rep 1) data={'Male': 'นเรศ', 'Female': 'พิมพ์ใจ', 'Image': 'women.png', 'Name': 'นเรศ', 'ImagePriming': 'men.png', 'NamePriming': 'นเรศ', 'ImageTrig': np.int64(10), 'NameTrig': np.int64(51), 'Trig': np.int64(101), 'thisN': 5, 'thisTrialN': 5, 'thisRepN': 1}>
+2.4955 	DATA 	Keypress: k
+2.5018 	INFO 	Keyboard events cleared
+2.5016 	EXP 	error_feedback: autoDraw = False
+2.5016 	EXP 	MAN: autoDraw = False
+2.5016 	EXP 	WOMAN: autoDraw = False
+2.5016 	EXP 	pic: autoDraw = False
+2.5016 	EXP 	error_feedback: autoDraw = False
+2.5016 	EXP 	pic: image = 'women.png'
+2.5016 	EXP 	MAN: autoDraw = True
+2.5016 	EXP 	WOMAN: autoDraw = True
+2.5016 	EXP 	pic: autoDraw = True
+2.5322 	EXP 	Device response: <KeyPress from None: t=2.524003400001675, value=j, duration=None>
+2.5328 	EXP 	New trial (rep=2, index=6): <Trial 6 (6 in rep 2) data={'Male': 'นเรศ', 'Female': 'พิมพ์ใจ', 'Image': 'women.png', 'Name': 'นเรศ', 'ImagePriming': 'men.png', 'NamePriming': 'นเรศ', 'ImageTrig': np.int64(10), 'NameTrig': np.int64(51), 'Trig': np.int64(101), 'thisN': 6, 'thisTrialN': 6, 'thisRepN': 2}>
+2.5611 	EXP 	Device response: <KeyPress from None: t=2.457844499964267, value=k, duration=0.10077430005185306>
+2.5631 	DATA 	Keypress: j
+2.5692 	INFO 	Keyboard events cleared
+2.5688 	EXP 	error_feedback: autoDraw = True
+2.5688 	EXP 	MAN: autoDraw = False
+2.5688 	EXP 	WOMAN: autoDraw = False
+2.5688 	EXP 	pic: autoDraw = False
+2.5688 	EXP 	error_feedback: autoDraw = False
+2.5688 	EXP 	pic: image = 'women.png'
+2.5688 	EXP 	MAN: autoDraw = True
+2.5688 	EXP 	WOMAN: autoDraw = True
+2.5688 	EXP 	pic: autoDraw = True
+2.6154 	EXP 	Device response: <KeyPress from None: t=2.524003400001675, value=j, duration=0.08883350004907697>
+2.6320 	EXP 	Device response: <KeyPress from None: t=2.629596999962814, value=k, duration=None>
+2.6323 	EXP 	New trial (rep=4, index=7): <Trial 7 (7 in rep 4) data={'Male': 'กฤษณะ', 'Female': 'กาญจนา', 'Image': 'men.png', 'Name': 'กฤษณะ', 'ImagePriming': 'men.png', 'NamePriming': 'กฤษณะ', 'ImageTrig': np.int64(10), 'NameTrig': np.int64(50), 'Trig': np.int64(100), 'thisN': 7, 'thisTrialN': 7, 'thisRepN': 4}>
+2.6624 	DATA 	Keypress: k
+2.6680 	INFO 	Keyboard events cleared
+2.6679 	EXP 	error_feedback: autoDraw = False
+2.6679 	EXP 	MAN: autoDraw = False
+2.6679 	EXP 	WOMAN: autoDraw = False
+2.6679 	EXP 	pic: autoDraw = False
+2.6679 	EXP 	error_feedback: autoDraw = False
+2.6679 	EXP 	pic: image = 'men.png'
+2.6679 	EXP 	MAN: autoDraw = True
+2.6679 	EXP 	WOMAN: autoDraw = True
+2.6679 	EXP 	pic: autoDraw = True
+2.7153 	EXP 	Device response: <KeyPress from None: t=2.705728100030683, value=j, duration=None>
+2.7156 	EXP 	New trial (rep=3, index=8): <Trial 8 (8 in rep 3) data={'Male': 'นเรศ', 'Female': 'พิมพ์ใจ', 'Image': 'women.png', 'Name': 'นเรศ', 'ImagePriming': 'men.png', 'NamePriming': 'นเรศ', 'ImageTrig': np.int64(10), 'NameTrig': np.int64(51), 'Trig': np.int64(101), 'thisN': 8, 'thisTrialN': 8, 'thisRepN': 3}>
+2.7482 	EXP 	Device response: <KeyPress from None: t=2.629596999962814, value=k, duration=0.10435190005227923>
+2.7501 	DATA 	Keypress: j
+2.7563 	INFO 	Keyboard events cleared
+2.7561 	EXP 	error_feedback: autoDraw = True
+2.7561 	EXP 	MAN: autoDraw = False
+2.7561 	EXP 	WOMAN: autoDraw = False
+2.7561 	EXP 	pic: autoDraw = False
+2.7561 	EXP 	error_feedback: autoDraw = False
+2.7561 	EXP 	pic: image = 'women.png'
+2.7561 	EXP 	MAN: autoDraw = True
+2.7561 	EXP 	WOMAN: autoDraw = True
+2.7561 	EXP 	pic: autoDraw = True
+2.7987 	EXP 	Device response: <KeyPress from None: t=2.705728100030683, value=j, duration=0.09024399996269494>
+2.8155 	EXP 	Device response: <KeyPress from None: t=2.807390999980271, value=k, duration=None>
+2.8159 	EXP 	New trial (rep=5, index=9): <Trial 9 (9 in rep 5) data={'Male': 'กฤษณะ', 'Female': 'กาญจนา', 'Image': 'men.png', 'Name': 'กฤษณะ', 'ImagePriming': 'men.png', 'NamePriming': 'กฤษณะ', 'ImageTrig': np.int64(10), 'NameTrig': np.int64(50), 'Trig': np.int64(100), 'thisN': 9, 'thisTrialN': 9, 'thisRepN': 5}>
+2.8452 	DATA 	Keypress: k
+2.8530 	INFO 	Keyboard events cleared
+2.8528 	EXP 	error_feedback: autoDraw = False
+2.8528 	EXP 	MAN: autoDraw = False
+2.8528 	EXP 	WOMAN: autoDraw = False
+2.8528 	EXP 	pic: autoDraw = False
+2.8528 	EXP 	error_feedback: autoDraw = False
+2.8528 	EXP 	pic: image = 'men.png'
+2.8528 	EXP 	MAN: autoDraw = True
+2.8528 	EXP 	WOMAN: autoDraw = True
+2.8528 	EXP 	pic: autoDraw = True
+2.8986 	EXP 	Device response: <KeyPress from None: t=2.8886384000070393, value=j, duration=None>
+2.8990 	EXP 	New trial (rep=6, index=10): <Trial 10 (10 in rep 6) data={'Male': 'กฤษณะ', 'Female': 'กาญจนา', 'Image': 'men.png', 'Name': 'กฤษณะ', 'ImagePriming': 'men.png', 'NamePriming': 'กฤษณะ', 'ImageTrig': np.int64(10), 'NameTrig': np.int64(50), 'Trig': np.int64(100), 'thisN': 10, 'thisTrialN': 10, 'thisRepN': 6}>
+2.9273 	EXP 	Device response: <KeyPress from None: t=2.807390999980271, value=k, duration=0.11283530003856868>
+2.9289 	DATA 	Keypress: j
+2.9355 	INFO 	Keyboard events cleared
+2.9354 	EXP 	error_feedback: autoDraw = True
+2.9354 	EXP 	MAN: autoDraw = False
+2.9354 	EXP 	WOMAN: autoDraw = False
+2.9354 	EXP 	pic: autoDraw = False
+2.9354 	EXP 	error_feedback: autoDraw = False
+2.9354 	EXP 	pic: image = 'men.png'
+2.9354 	EXP 	MAN: autoDraw = True
+2.9354 	EXP 	WOMAN: autoDraw = True
+2.9354 	EXP 	pic: autoDraw = True
+2.9821 	EXP 	Device response: <KeyPress from None: t=2.8886384000070393, value=j, duration=0.09225400001741946>
+2.9988 	EXP 	Device response: <KeyPress from None: t=2.985610199975781, value=k, duration=None>
+2.9993 	EXP 	New trial (rep=7, index=11): <Trial 11 (11 in rep 7) data={'Male': 'กฤษณะ', 'Female': 'กาญจนา', 'Image': 'men.png', 'Name': 'กฤษณะ', 'ImagePriming': 'men.png', 'NamePriming': 'กฤษณะ', 'ImageTrig': np.int64(10), 'NameTrig': np.int64(50), 'Trig': np.int64(100), 'thisN': 11, 'thisTrialN': 11, 'thisRepN': 7}>
+3.0267 	DATA 	Keypress: k
+3.0330 	INFO 	Keyboard events cleared
+3.0328 	EXP 	error_feedback: autoDraw = False
+3.0328 	EXP 	MAN: autoDraw = False
+3.0328 	EXP 	WOMAN: autoDraw = False
+3.0328 	EXP 	pic: autoDraw = False
+3.0328 	EXP 	error_feedback: autoDraw = False
+3.0328 	EXP 	pic: image = 'men.png'
+3.0328 	EXP 	MAN: autoDraw = True
+3.0328 	EXP 	WOMAN: autoDraw = True
+3.0328 	EXP 	pic: autoDraw = True
+3.0818 	EXP 	Device response: <KeyPress from None: t=3.0678052000002936, value=j, duration=None>
+3.0822 	EXP 	New trial (rep=8, index=12): <Trial 12 (12 in rep 8) data={'Male': 'กฤษณะ', 'Female': 'กาญจนา', 'Image': 'men.png', 'Name': 'กฤษณะ', 'ImagePriming': 'men.png', 'NamePriming': 'กฤษณะ', 'ImageTrig': np.int64(10), 'NameTrig': np.int64(50), 'Trig': np.int64(100), 'thisN': 12, 'thisTrialN': 12, 'thisRepN': 8}>
+3.1120 	DATA 	Keypress: j
+3.1176 	INFO 	Keyboard events cleared
+3.1174 	EXP 	error_feedback: autoDraw = True
+3.1174 	EXP 	MAN: autoDraw = False
+3.1174 	EXP 	WOMAN: autoDraw = False
+3.1174 	EXP 	pic: autoDraw = False
+3.1174 	EXP 	error_feedback: autoDraw = False
+3.1174 	EXP 	pic: image = 'men.png'
+3.1174 	EXP 	MAN: autoDraw = True
+3.1174 	EXP 	WOMAN: autoDraw = True
+3.1174 	EXP 	pic: autoDraw = True
+3.1651 	EXP 	Device response: <KeyPress from None: t=3.0678052000002936, value=j, duration=0.08509259996935725>
+3.2488 	EXP 	Device response: <KeyPress from None: t=2.985610199975781, value=k, duration=0.2626777000259608>
+3.2503 	DATA 	Keypress: j
+3.2654 	EXP 	Device response: <KeyPress from None: t=3.2492621999699622, value=j, duration=None>
+3.2658 	EXP 	New trial (rep=4, index=13): <Trial 13 (13 in rep 4) data={'Male': 'นเรศ', 'Female': 'พิมพ์ใจ', 'Image': 'women.png', 'Name': 'นเรศ', 'ImagePriming': 'men.png', 'NamePriming': 'นเรศ', 'ImageTrig': np.int64(10), 'NameTrig': np.int64(51), 'Trig': np.int64(101), 'thisN': 13, 'thisTrialN': 13, 'thisRepN': 4}>
+3.3051 	INFO 	Keyboard events cleared
+3.3049 	EXP 	error_feedback: autoDraw = True
+3.3049 	EXP 	MAN: autoDraw = False
+3.3049 	EXP 	WOMAN: autoDraw = False
+3.3049 	EXP 	pic: autoDraw = False
+3.3049 	EXP 	error_feedback: autoDraw = False
+3.3049 	EXP 	pic: image = 'women.png'
+3.3049 	EXP 	MAN: autoDraw = True
+3.3049 	EXP 	WOMAN: autoDraw = True
+3.3049 	EXP 	pic: autoDraw = True
+3.3489 	EXP 	Device response: <KeyPress from None: t=3.2492621999699622, value=j, duration=0.08382310008164495>
+3.3489 	EXP 	Device response: <KeyPress from None: t=3.3420677999965847, value=k, duration=None>
+3.3493 	EXP 	New trial (rep=5, index=14): <Trial 14 (14 in rep 5) data={'Male': 'นเรศ', 'Female': 'พิมพ์ใจ', 'Image': 'women.png', 'Name': 'นเรศ', 'ImagePriming': 'men.png', 'NamePriming': 'นเรศ', 'ImageTrig': np.int64(10), 'NameTrig': np.int64(51), 'Trig': np.int64(101), 'thisN': 14, 'thisTrialN': 14, 'thisRepN': 5}>
+3.3835 	DATA 	Keypress: k
+3.3904 	INFO 	Keyboard events cleared
+3.3903 	EXP 	error_feedback: autoDraw = False
+3.3903 	EXP 	MAN: autoDraw = False
+3.3903 	EXP 	WOMAN: autoDraw = False
+3.3903 	EXP 	pic: autoDraw = False
+3.3903 	EXP 	error_feedback: autoDraw = False
+3.3903 	EXP 	pic: image = 'women.png'
+3.3903 	EXP 	MAN: autoDraw = True
+3.3903 	EXP 	WOMAN: autoDraw = True
+3.3903 	EXP 	pic: autoDraw = True
+3.4340 	DATA 	Keypress: j
+3.4486 	EXP 	Device response: <KeyPress from None: t=3.4325125999748707, value=j, duration=None>
+3.4490 	EXP 	New trial (rep=6, index=15): <Trial 15 (15 in rep 6) data={'Male': 'นเรศ', 'Female': 'พิมพ์ใจ', 'Image': 'women.png', 'Name': 'นเรศ', 'ImagePriming': 'men.png', 'NamePriming': 'นเรศ', 'ImageTrig': np.int64(10), 'NameTrig': np.int64(51), 'Trig': np.int64(101), 'thisN': 15, 'thisTrialN': 15, 'thisRepN': 6}>
+3.4800 	EXP 	Device response: <KeyPress from None: t=3.3420677999965847, value=k, duration=0.12016960000619292>
+3.4887 	INFO 	Keyboard events cleared
+3.4885 	EXP 	error_feedback: autoDraw = True
+3.4885 	EXP 	MAN: autoDraw = False
+3.4885 	EXP 	WOMAN: autoDraw = False
+3.4885 	EXP 	pic: autoDraw = False
+3.4885 	EXP 	error_feedback: autoDraw = False
+3.4885 	EXP 	pic: image = 'women.png'
+3.4885 	EXP 	MAN: autoDraw = True
+3.4885 	EXP 	WOMAN: autoDraw = True
+3.4885 	EXP 	pic: autoDraw = True
+3.4990 	EXP 	Device response: <KeyPress from None: t=3.4325125999748707, value=j, duration=0.0583001000341028>
+3.5327 	EXP 	Device response: <KeyPress from None: t=3.5182223999872804, value=k, duration=None>
+3.5331 	EXP 	New trial (rep=7, index=16): <Trial 16 (16 in rep 7) data={'Male': 'นเรศ', 'Female': 'พิมพ์ใจ', 'Image': 'women.png', 'Name': 'นเรศ', 'ImagePriming': 'men.png', 'NamePriming': 'นเรศ', 'ImageTrig': np.int64(10), 'NameTrig': np.int64(51), 'Trig': np.int64(101), 'thisN': 16, 'thisTrialN': 16, 'thisRepN': 7}>
+3.5643 	DATA 	Keypress: k
+3.5712 	INFO 	Keyboard events cleared
+3.5710 	EXP 	error_feedback: autoDraw = False
+3.5710 	EXP 	MAN: autoDraw = False
+3.5710 	EXP 	WOMAN: autoDraw = False
+3.5710 	EXP 	pic: autoDraw = False
+3.5710 	EXP 	error_feedback: autoDraw = False
+3.5710 	EXP 	pic: image = 'women.png'
+3.5710 	EXP 	MAN: autoDraw = True
+3.5710 	EXP 	WOMAN: autoDraw = True
+3.5710 	EXP 	pic: autoDraw = True
+3.5996 	EXP 	Device response: <KeyPress from None: t=3.584097000071779, value=j, duration=None>
+3.6001 	EXP 	New trial (rep=8, index=17): <Trial 17 (17 in rep 8) data={'Male': 'นเรศ', 'Female': 'พิมพ์ใจ', 'Image': 'women.png', 'Name': 'นเรศ', 'ImagePriming': 'men.png', 'NamePriming': 'นเรศ', 'ImageTrig': np.int64(10), 'NameTrig': np.int64(51), 'Trig': np.int64(101), 'thisN': 17, 'thisTrialN': 17, 'thisRepN': 8}>
+3.6299 	EXP 	Device response: <KeyPress from None: t=3.5182223999872804, value=k, duration=0.10688320000190288>
+3.6319 	DATA 	Keypress: j
+3.6391 	INFO 	Keyboard events cleared
+3.6390 	EXP 	error_feedback: autoDraw = True
+3.6390 	EXP 	MAN: autoDraw = False
+3.6390 	EXP 	WOMAN: autoDraw = False
+3.6390 	EXP 	pic: autoDraw = False
+3.6390 	EXP 	error_feedback: autoDraw = False
+3.6390 	EXP 	pic: image = 'women.png'
+3.6390 	EXP 	MAN: autoDraw = True
+3.6390 	EXP 	WOMAN: autoDraw = True
+3.6390 	EXP 	pic: autoDraw = True
+3.6827 	EXP 	Device response: <KeyPress from None: t=3.584097000071779, value=j, duration=0.0966901999199763>
+3.6997 	EXP 	Device response: <KeyPress from None: t=3.686469400068745, value=k, duration=None>
+3.7001 	EXP 	New trial (rep=9, index=18): <Trial 18 (18 in rep 9) data={'Male': 'นเรศ', 'Female': 'พิมพ์ใจ', 'Image': 'women.png', 'Name': 'นเรศ', 'ImagePriming': 'men.png', 'NamePriming': 'นเรศ', 'ImageTrig': np.int64(10), 'NameTrig': np.int64(51), 'Trig': np.int64(101), 'thisN': 18, 'thisTrialN': 18, 'thisRepN': 9}>
+3.7346 	DATA 	Keypress: k
+3.7420 	INFO 	Keyboard events cleared
+3.7418 	EXP 	error_feedback: autoDraw = False
+3.7418 	EXP 	MAN: autoDraw = False
+3.7418 	EXP 	WOMAN: autoDraw = False
+3.7418 	EXP 	pic: autoDraw = False
+3.7418 	EXP 	error_feedback: autoDraw = False
+3.7418 	EXP 	pic: image = 'women.png'
+3.7418 	EXP 	MAN: autoDraw = True
+3.7418 	EXP 	WOMAN: autoDraw = True
+3.7418 	EXP 	pic: autoDraw = True
+3.7681 	DATA 	Keypress: j
+3.7832 	EXP 	Device response: <KeyPress from None: t=3.767682900070213, value=j, duration=None>
+3.7836 	EXP 	New trial (rep=9, index=19): <Trial 19 (19 in rep 9) data={'Male': 'กฤษณะ', 'Female': 'กาญจนา', 'Image': 'men.png', 'Name': 'กฤษณะ', 'ImagePriming': 'men.png', 'NamePriming': 'กฤษณะ', 'ImageTrig': np.int64(10), 'NameTrig': np.int64(50), 'Trig': np.int64(100), 'thisN': 19, 'thisTrialN': 19, 'thisRepN': 9}>
+3.8133 	EXP 	Device response: <KeyPress from None: t=3.686469400068745, value=k, duration=0.11308909999206662>
+3.8202 	INFO 	Keyboard events cleared
+3.8201 	EXP 	error_feedback: autoDraw = True
+3.8201 	EXP 	MAN: autoDraw = False
+3.8201 	EXP 	WOMAN: autoDraw = False
+3.8201 	EXP 	pic: autoDraw = False
+3.8201 	EXP 	error_feedback: autoDraw = False
+3.8201 	EXP 	pic: image = 'men.png'
+3.8201 	EXP 	MAN: autoDraw = True
+3.8201 	EXP 	WOMAN: autoDraw = True
+3.8201 	EXP 	pic: autoDraw = True
+3.8660 	EXP 	Device response: <KeyPress from None: t=3.767682900070213, value=j, duration=0.08304789999965578>
+3.8830 	EXP 	Device response: <KeyPress from None: t=3.868455299991183, value=k, duration=None>
+3.8833 	EXP 	New trial (rep=10, index=20): <Trial 20 (20 in rep 10) data={'Male': 'กฤษณะ', 'Female': 'กาญจนา', 'Image': 'men.png', 'Name': 'กฤษณะ', 'ImagePriming': 'men.png', 'NamePriming': 'กฤษณะ', 'ImageTrig': np.int64(10), 'NameTrig': np.int64(50), 'Trig': np.int64(100), 'thisN': 20, 'thisTrialN': 20, 'thisRepN': 10}>
+3.9130 	DATA 	Keypress: k
+3.9198 	INFO 	Keyboard events cleared
+3.9197 	EXP 	error_feedback: autoDraw = False
+3.9197 	EXP 	MAN: autoDraw = False
+3.9197 	EXP 	WOMAN: autoDraw = False
+3.9197 	EXP 	pic: autoDraw = False
+3.9197 	EXP 	error_feedback: autoDraw = False
+3.9197 	EXP 	pic: image = 'men.png'
+3.9197 	EXP 	MAN: autoDraw = True
+3.9197 	EXP 	WOMAN: autoDraw = True
+3.9197 	EXP 	pic: autoDraw = True
+3.9495 	EXP 	Device response: <KeyPress from None: t=3.9441145999589935, value=j, duration=None>
+3.9498 	EXP 	New trial (rep=11, index=21): <Trial 21 (21 in rep 11) data={'Male': 'กฤษณะ', 'Female': 'กาญจนา', 'Image': 'men.png', 'Name': 'กฤษณะ', 'ImagePriming': 'men.png', 'NamePriming': 'กฤษณะ', 'ImageTrig': np.int64(10), 'NameTrig': np.int64(50), 'Trig': np.int64(100), 'thisN': 21, 'thisTrialN': 21, 'thisRepN': 11}>
+3.9789 	EXP 	Device response: <KeyPress from None: t=3.868455299991183, value=k, duration=0.09734129998832941>
+3.9806 	DATA 	Keypress: j
+3.9875 	INFO 	Keyboard events cleared
+3.9873 	EXP 	error_feedback: autoDraw = True
+3.9873 	EXP 	MAN: autoDraw = False
+3.9873 	EXP 	WOMAN: autoDraw = False
+3.9873 	EXP 	pic: autoDraw = False
+3.9873 	EXP 	error_feedback: autoDraw = False
+3.9873 	EXP 	pic: image = 'men.png'
+3.9873 	EXP 	MAN: autoDraw = True
+3.9873 	EXP 	WOMAN: autoDraw = True
+3.9873 	EXP 	pic: autoDraw = True
+4.0484 	EXP 	Device response: <KeyPress from None: t=3.9441145999589935, value=j, duration=0.09211180009879172>
+4.0487 	EXP 	Device response: <KeyPress from None: t=4.041931099956855, value=k, duration=None>
+4.0490 	EXP 	New trial (rep=12, index=22): <Trial 22 (22 in rep 12) data={'Male': 'กฤษณะ', 'Female': 'กาญจนา', 'Image': 'men.png', 'Name': 'กฤษณะ', 'ImagePriming': 'men.png', 'NamePriming': 'กฤษณะ', 'ImageTrig': np.int64(10), 'NameTrig': np.int64(50), 'Trig': np.int64(100), 'thisN': 22, 'thisTrialN': 22, 'thisRepN': 12}>
+4.0793 	DATA 	Keypress: k
+4.0850 	INFO 	Keyboard events cleared
+4.0848 	EXP 	error_feedback: autoDraw = False
+4.0848 	EXP 	MAN: autoDraw = False
+4.0848 	EXP 	WOMAN: autoDraw = False
+4.0848 	EXP 	pic: autoDraw = False
+4.0848 	EXP 	error_feedback: autoDraw = False
+4.0848 	EXP 	pic: image = 'men.png'
+4.0848 	EXP 	MAN: autoDraw = True
+4.0848 	EXP 	WOMAN: autoDraw = True
+4.0848 	EXP 	pic: autoDraw = True
+4.1322 	EXP 	Device response: <KeyPress from None: t=4.125273699988611, value=j, duration=None>
+4.1327 	EXP 	New trial (rep=10, index=23): <Trial 23 (23 in rep 10) data={'Male': 'นเรศ', 'Female': 'พิมพ์ใจ', 'Image': 'women.png', 'Name': 'นเรศ', 'ImagePriming': 'men.png', 'NamePriming': 'นเรศ', 'ImageTrig': np.int64(10), 'NameTrig': np.int64(51), 'Trig': np.int64(101), 'thisN': 23, 'thisTrialN': 23, 'thisRepN': 10}>
+4.1592 	EXP 	Device response: <KeyPress from None: t=4.041931099956855, value=k, duration=0.11361990007571876>
+4.1608 	DATA 	Keypress: j
+4.1667 	INFO 	Keyboard events cleared
+4.1666 	EXP 	error_feedback: autoDraw = True
+4.1666 	EXP 	MAN: autoDraw = False
+4.1666 	EXP 	WOMAN: autoDraw = False
+4.1666 	EXP 	pic: autoDraw = False
+4.1666 	EXP 	error_feedback: autoDraw = False
+4.1666 	EXP 	pic: image = 'women.png'
+4.1666 	EXP 	MAN: autoDraw = True
+4.1666 	EXP 	WOMAN: autoDraw = True
+4.1666 	EXP 	pic: autoDraw = True
+4.2157 	EXP 	Device response: <KeyPress from None: t=4.125273699988611, value=j, duration=0.0899461000226438>
+4.2318 	EXP 	Device response: <KeyPress from None: t=4.2296100000385195, value=k, duration=None>
+4.2322 	EXP 	New trial (rep=13, index=24): <Trial 24 (24 in rep 13) data={'Male': 'กฤษณะ', 'Female': 'กาญจนา', 'Image': 'men.png', 'Name': 'กฤษณะ', 'ImagePriming': 'men.png', 'NamePriming': 'กฤษณะ', 'ImageTrig': np.int64(10), 'NameTrig': np.int64(50), 'Trig': np.int64(100), 'thisN': 24, 'thisTrialN': 24, 'thisRepN': 13}>
+4.2613 	DATA 	Keypress: k
+4.2670 	INFO 	Keyboard events cleared
+4.2668 	EXP 	error_feedback: autoDraw = False
+4.2668 	EXP 	MAN: autoDraw = False
+4.2668 	EXP 	WOMAN: autoDraw = False
+4.2668 	EXP 	pic: autoDraw = False
+4.2668 	EXP 	error_feedback: autoDraw = False
+4.2668 	EXP 	pic: image = 'men.png'
+4.2668 	EXP 	MAN: autoDraw = True
+4.2668 	EXP 	WOMAN: autoDraw = True
+4.2668 	EXP 	pic: autoDraw = True
+4.3154 	EXP 	Device response: <KeyPress from None: t=4.312342299963348, value=j, duration=None>
+4.3158 	EXP 	New trial (rep=14, index=25): <Trial 25 (25 in rep 14) data={'Male': 'กฤษณะ', 'Female': 'กาญจนา', 'Image': 'men.png', 'Name': 'กฤษณะ', 'ImagePriming': 'men.png', 'NamePriming': 'กฤษณะ', 'ImageTrig': np.int64(10), 'NameTrig': np.int64(50), 'Trig': np.int64(100), 'thisN': 25, 'thisTrialN': 25, 'thisRepN': 14}>
+4.3461 	DATA 	Keypress: j
+4.3530 	INFO 	Keyboard events cleared
+4.3528 	EXP 	error_feedback: autoDraw = True
+4.3528 	EXP 	MAN: autoDraw = False
+4.3528 	EXP 	WOMAN: autoDraw = False
+4.3528 	EXP 	pic: autoDraw = False
+4.3528 	EXP 	error_feedback: autoDraw = False
+4.3528 	EXP 	pic: image = 'men.png'
+4.3528 	EXP 	MAN: autoDraw = True
+4.3528 	EXP 	WOMAN: autoDraw = True
+4.3528 	EXP 	pic: autoDraw = True
+4.4151 	EXP 	Device response: <KeyPress from None: t=4.312342299963348, value=j, duration=0.08793700009118766>
+4.4818 	EXP 	Device response: <KeyPress from None: t=4.467731900047511, value=j, duration=None>
+4.4822 	EXP 	New trial (rep=11, index=26): <Trial 26 (26 in rep 11) data={'Male': 'นเรศ', 'Female': 'พิมพ์ใจ', 'Image': 'women.png', 'Name': 'นเรศ', 'ImagePriming': 'men.png', 'NamePriming': 'นเรศ', 'ImageTrig': np.int64(10), 'NameTrig': np.int64(51), 'Trig': np.int64(101), 'thisN': 26, 'thisTrialN': 26, 'thisRepN': 11}>
+4.5134 	DATA 	Keypress: j
+4.5206 	INFO 	Keyboard events cleared
+4.5203 	EXP 	error_feedback: autoDraw = True
+4.5203 	EXP 	MAN: autoDraw = False
+4.5203 	EXP 	WOMAN: autoDraw = False
+4.5203 	EXP 	pic: autoDraw = False
+4.5203 	EXP 	error_feedback: autoDraw = False
+4.5203 	EXP 	pic: image = 'women.png'
+4.5203 	EXP 	MAN: autoDraw = True
+4.5203 	EXP 	WOMAN: autoDraw = True
+4.5203 	EXP 	pic: autoDraw = True
+4.5654 	EXP 	Device response: <KeyPress from None: t=4.467731900047511, value=j, duration=0.09132579993456602>
+4.6316 	EXP 	Device response: <KeyPress from None: t=4.627139899996109, value=j, duration=None>
+4.6320 	EXP 	New trial (rep=15, index=27): <Trial 27 (27 in rep 15) data={'Male': 'กฤษณะ', 'Female': 'กาญจนา', 'Image': 'men.png', 'Name': 'กฤษณะ', 'ImagePriming': 'men.png', 'NamePriming': 'กฤษณะ', 'ImageTrig': np.int64(10), 'NameTrig': np.int64(50), 'Trig': np.int64(100), 'thisN': 27, 'thisTrialN': 27, 'thisRepN': 15}>
+4.6617 	DATA 	Keypress: j
+4.6676 	INFO 	Keyboard events cleared
+4.6674 	EXP 	error_feedback: autoDraw = True
+4.6674 	EXP 	MAN: autoDraw = False
+4.6674 	EXP 	WOMAN: autoDraw = False
+4.6674 	EXP 	pic: autoDraw = False
+4.6674 	EXP 	error_feedback: autoDraw = False
+4.6674 	EXP 	pic: image = 'men.png'
+4.6674 	EXP 	MAN: autoDraw = True
+4.6674 	EXP 	WOMAN: autoDraw = True
+4.6674 	EXP 	pic: autoDraw = True
+4.7649 	EXP 	Device response: <KeyPress from None: t=4.627139899996109, value=j, duration=0.13051579997409135>
+4.8488 	EXP 	Device response: <KeyPress from None: t=4.834413700038567, value=j, duration=None>
+4.8491 	EXP 	New trial (rep=12, index=28): <Trial 28 (28 in rep 12) data={'Male': 'นเรศ', 'Female': 'พิมพ์ใจ', 'Image': 'women.png', 'Name': 'นเรศ', 'ImagePriming': 'men.png', 'NamePriming': 'นเรศ', 'ImageTrig': np.int64(10), 'NameTrig': np.int64(51), 'Trig': np.int64(101), 'thisN': 28, 'thisTrialN': 28, 'thisRepN': 12}>
+4.8790 	DATA 	Keypress: j
+4.8858 	INFO 	Keyboard events cleared
+4.8856 	EXP 	error_feedback: autoDraw = True
+4.8856 	EXP 	MAN: autoDraw = False
+4.8856 	EXP 	WOMAN: autoDraw = False
+4.8856 	EXP 	pic: autoDraw = False
+4.8856 	EXP 	error_feedback: autoDraw = False
+4.8856 	EXP 	pic: image = 'women.png'
+4.8856 	EXP 	MAN: autoDraw = True
+4.8856 	EXP 	WOMAN: autoDraw = True
+4.8856 	EXP 	pic: autoDraw = True
+4.9159 	EXP 	Device response: <KeyPress from None: t=4.834413700038567, value=j, duration=0.07561629998963326>
+4.9670 	EXP 	Device response: <KeyPress from None: t=4.9661539000226185, value=j, duration=None>
+4.9673 	EXP 	New trial (rep=16, index=29): <Trial 29 (29 in rep 16) data={'Male': 'กฤษณะ', 'Female': 'กาญจนา', 'Image': 'men.png', 'Name': 'กฤษณะ', 'ImagePriming': 'men.png', 'NamePriming': 'กฤษณะ', 'ImageTrig': np.int64(10), 'NameTrig': np.int64(50), 'Trig': np.int64(100), 'thisN': 29, 'thisTrialN': 29, 'thisRepN': 16}>
+4.9969 	DATA 	Keypress: j
+5.0037 	INFO 	Keyboard events cleared
+5.0035 	EXP 	error_feedback: autoDraw = True
+5.0035 	EXP 	MAN: autoDraw = False
+5.0035 	EXP 	WOMAN: autoDraw = False
+5.0035 	EXP 	pic: autoDraw = False
+5.0035 	EXP 	error_feedback: autoDraw = False
+5.0035 	EXP 	pic: image = 'men.png'
+5.0035 	EXP 	MAN: autoDraw = True
+5.0035 	EXP 	WOMAN: autoDraw = True
+5.0035 	EXP 	pic: autoDraw = True
+5.0328 	EXP 	Device response: <KeyPress from None: t=4.9661539000226185, value=j, duration=0.049572299933061004>
+5.0822 	EXP 	Device response: <KeyPress from None: t=5.077962200040929, value=j, duration=None>
+5.0828 	EXP 	New trial (rep=13, index=30): <Trial 30 (30 in rep 13) data={'Male': 'นเรศ', 'Female': 'พิมพ์ใจ', 'Image': 'women.png', 'Name': 'นเรศ', 'ImagePriming': 'men.png', 'NamePriming': 'นเรศ', 'ImageTrig': np.int64(10), 'NameTrig': np.int64(51), 'Trig': np.int64(101), 'thisN': 30, 'thisTrialN': 30, 'thisRepN': 13}>
+5.1162 	DATA 	Keypress: j
+5.1230 	INFO 	Keyboard events cleared
+5.1229 	EXP 	error_feedback: autoDraw = True
+5.1229 	EXP 	MAN: autoDraw = False
+5.1229 	EXP 	WOMAN: autoDraw = False
+5.1229 	EXP 	pic: autoDraw = False
+5.1229 	EXP 	error_feedback: autoDraw = False
+5.1229 	EXP 	pic: image = 'women.png'
+5.1229 	EXP 	MAN: autoDraw = True
+5.1229 	EXP 	WOMAN: autoDraw = True
+5.1229 	EXP 	pic: autoDraw = True
+5.1317 	EXP 	Device response: <KeyPress from None: t=5.077962200040929, value=j, duration=0.04693469998892397>
+5.1997 	EXP 	Device response: <KeyPress from None: t=5.194439199985936, value=j, duration=None>
+5.2001 	EXP 	New trial (rep=17, index=31): <Trial 31 (31 in rep 17) data={'Male': 'กฤษณะ', 'Female': 'กาญจนา', 'Image': 'men.png', 'Name': 'กฤษณะ', 'ImagePriming': 'men.png', 'NamePriming': 'กฤษณะ', 'ImageTrig': np.int64(10), 'NameTrig': np.int64(50), 'Trig': np.int64(100), 'thisN': 31, 'thisTrialN': 31, 'thisRepN': 17}>
+5.2303 	DATA 	Keypress: j
+5.2373 	INFO 	Keyboard events cleared
+5.2371 	EXP 	error_feedback: autoDraw = True
+5.2371 	EXP 	MAN: autoDraw = False
+5.2371 	EXP 	WOMAN: autoDraw = False
+5.2371 	EXP 	pic: autoDraw = False
+5.2371 	EXP 	error_feedback: autoDraw = False
+5.2371 	EXP 	pic: image = 'men.png'
+5.2371 	EXP 	MAN: autoDraw = True
+5.2371 	EXP 	WOMAN: autoDraw = True
+5.2371 	EXP 	pic: autoDraw = True
+5.2485 	EXP 	Device response: <KeyPress from None: t=5.194439199985936, value=j, duration=0.04641409998293966>
+5.3177 	DATA 	Keypress: j
+5.3328 	EXP 	Device response: <KeyPress from None: t=5.316810599993914, value=j, duration=None>
+5.3334 	EXP 	New trial (rep=14, index=32): <Trial 32 (32 in rep 14) data={'Male': 'นเรศ', 'Female': 'พิมพ์ใจ', 'Image': 'women.png', 'Name': 'นเรศ', 'ImagePriming': 'men.png', 'NamePriming': 'นเรศ', 'ImageTrig': np.int64(10), 'NameTrig': np.int64(51), 'Trig': np.int64(101), 'thisN': 32, 'thisTrialN': 32, 'thisRepN': 14}>
+5.3700 	INFO 	Keyboard events cleared
+5.3697 	EXP 	error_feedback: autoDraw = True
+5.3697 	EXP 	MAN: autoDraw = False
+5.3697 	EXP 	WOMAN: autoDraw = False
+5.3697 	EXP 	pic: autoDraw = False
+5.3697 	EXP 	error_feedback: autoDraw = False
+5.3697 	EXP 	pic: image = 'women.png'
+5.3697 	EXP 	MAN: autoDraw = True
+5.3697 	EXP 	WOMAN: autoDraw = True
+5.3697 	EXP 	pic: autoDraw = True
+5.4331 	EXP 	Device response: <KeyPress from None: t=5.4317654999904335, value=j, duration=None>
+5.4335 	EXP 	New trial (rep=18, index=33): <Trial 33 (33 in rep 18) data={'Male': 'กฤษณะ', 'Female': 'กาญจนา', 'Image': 'men.png', 'Name': 'กฤษณะ', 'ImagePriming': 'men.png', 'NamePriming': 'กฤษณะ', 'ImageTrig': np.int64(10), 'NameTrig': np.int64(50), 'Trig': np.int64(100), 'thisN': 33, 'thisTrialN': 33, 'thisRepN': 18}>
+5.4631 	DATA 	Keypress: j
+5.4700 	INFO 	Keyboard events cleared
+5.4698 	EXP 	error_feedback: autoDraw = True
+5.4698 	EXP 	MAN: autoDraw = False
+5.4698 	EXP 	WOMAN: autoDraw = False
+5.4698 	EXP 	pic: autoDraw = False
+5.4698 	EXP 	error_feedback: autoDraw = False
+5.4698 	EXP 	pic: image = 'men.png'
+5.4698 	EXP 	MAN: autoDraw = True
+5.4698 	EXP 	WOMAN: autoDraw = True
+5.4698 	EXP 	pic: autoDraw = True
+5.4819 	EXP 	Device response: <KeyPress from None: t=5.316810599993914, value=j, duration=0.1607605000026524>
+5.5819 	EXP 	Device response: <KeyPress from None: t=5.572357899975032, value=j, duration=None>
+5.5823 	EXP 	New trial (rep=15, index=34): <Trial 34 (34 in rep 15) data={'Male': 'นเรศ', 'Female': 'พิมพ์ใจ', 'Image': 'women.png', 'Name': 'นเรศ', 'ImagePriming': 'men.png', 'NamePriming': 'นเรศ', 'ImageTrig': np.int64(10), 'NameTrig': np.int64(51), 'Trig': np.int64(101), 'thisN': 34, 'thisTrialN': 34, 'thisRepN': 15}>
+5.6106 	EXP 	Device response: <KeyPress from None: t=5.4317654999904335, value=j, duration=0.1665699000004679>
+5.6121 	DATA 	Keypress: j
+5.6193 	INFO 	Keyboard events cleared
+5.6191 	EXP 	error_feedback: autoDraw = True
+5.6191 	EXP 	MAN: autoDraw = False
+5.6191 	EXP 	WOMAN: autoDraw = False
+5.6191 	EXP 	pic: autoDraw = False
+5.6191 	EXP 	error_feedback: autoDraw = False
+5.6191 	EXP 	pic: image = 'women.png'
+5.6191 	EXP 	MAN: autoDraw = True
+5.6191 	EXP 	WOMAN: autoDraw = True
+5.6191 	EXP 	pic: autoDraw = True
+6.4661 	EXP 	Device response: <KeyPress from None: t=6.461018800036982, value=j, duration=None>
+6.4665 	EXP 	New trial (rep=19, index=35): <Trial 35 (35 in rep 19) data={'Male': 'กฤษณะ', 'Female': 'กาญจนา', 'Image': 'men.png', 'Name': 'กฤษณะ', 'ImagePriming': 'men.png', 'NamePriming': 'กฤษณะ', 'ImageTrig': np.int64(10), 'NameTrig': np.int64(50), 'Trig': np.int64(100), 'thisN': 35, 'thisTrialN': 35, 'thisRepN': 19}>
+6.4949 	DATA 	Keypress: j
+6.5016 	INFO 	Keyboard events cleared
+6.5014 	EXP 	error_feedback: autoDraw = True
+6.5014 	EXP 	MAN: autoDraw = False
+6.5014 	EXP 	WOMAN: autoDraw = False
+6.5014 	EXP 	pic: autoDraw = False
+6.5014 	EXP 	error_feedback: autoDraw = False
+6.5014 	EXP 	pic: image = 'men.png'
+6.5014 	EXP 	MAN: autoDraw = True
+6.5014 	EXP 	WOMAN: autoDraw = True
+6.5014 	EXP 	pic: autoDraw = True
+6.5492 	EXP 	Device response: <KeyPress from None: t=5.572357899975032, value=j, duration=0.9671099000843242>
+6.6320 	EXP 	Device response: <KeyPress from None: t=6.617577500059269, value=j, duration=None>
+6.6324 	EXP 	New trial (rep=16, index=36): <Trial 36 (36 in rep 16) data={'Male': 'นเรศ', 'Female': 'พิมพ์ใจ', 'Image': 'women.png', 'Name': 'นเรศ', 'ImagePriming': 'men.png', 'NamePriming': 'นเรศ', 'ImageTrig': np.int64(10), 'NameTrig': np.int64(51), 'Trig': np.int64(101), 'thisN': 36, 'thisTrialN': 36, 'thisRepN': 16}>
+6.6648 	DATA 	Keypress: j
+6.6702 	INFO 	Keyboard events cleared
+6.6700 	EXP 	error_feedback: autoDraw = True
+6.6700 	EXP 	MAN: autoDraw = False
+6.6700 	EXP 	WOMAN: autoDraw = False
+6.6700 	EXP 	pic: autoDraw = False
+6.6700 	EXP 	error_feedback: autoDraw = False
+6.6700 	EXP 	pic: image = 'women.png'
+6.6700 	EXP 	MAN: autoDraw = True
+6.6700 	EXP 	WOMAN: autoDraw = True
+6.6700 	EXP 	pic: autoDraw = True
+6.6982 	EXP 	Device response: <KeyPress from None: t=6.461018800036982, value=j, duration=0.22750949999317527>
+6.8983 	EXP 	Device response: <KeyPress from None: t=6.887145700049587, value=j, duration=None>
+6.8988 	EXP 	New trial (rep=17, index=37): <Trial 37 (37 in rep 17) data={'Male': 'นเรศ', 'Female': 'พิมพ์ใจ', 'Image': 'women.png', 'Name': 'นเรศ', 'ImagePriming': 'men.png', 'NamePriming': 'นเรศ', 'ImageTrig': np.int64(10), 'NameTrig': np.int64(51), 'Trig': np.int64(101), 'thisN': 37, 'thisTrialN': 37, 'thisRepN': 17}>
+6.9284 	DATA 	Keypress: j
+6.9345 	INFO 	Keyboard events cleared
+6.9343 	EXP 	error_feedback: autoDraw = True
+6.9343 	EXP 	MAN: autoDraw = False
+6.9343 	EXP 	WOMAN: autoDraw = False
+6.9343 	EXP 	pic: autoDraw = False
+6.9343 	EXP 	error_feedback: autoDraw = False
+6.9343 	EXP 	pic: image = 'women.png'
+6.9343 	EXP 	MAN: autoDraw = True
+6.9343 	EXP 	WOMAN: autoDraw = True
+6.9343 	EXP 	pic: autoDraw = True
+6.9652 	EXP 	Device response: <KeyPress from None: t=6.617577500059269, value=j, duration=0.3403245999943465>
+7.0488 	EXP 	Device response: <KeyPress from None: t=7.040350400027819, value=j, duration=None>
+7.0492 	EXP 	New trial (rep=18, index=38): <Trial 38 (38 in rep 18) data={'Male': 'นเรศ', 'Female': 'พิมพ์ใจ', 'Image': 'women.png', 'Name': 'นเรศ', 'ImagePriming': 'men.png', 'NamePriming': 'นเรศ', 'ImageTrig': np.int64(10), 'NameTrig': np.int64(51), 'Trig': np.int64(101), 'thisN': 38, 'thisTrialN': 38, 'thisRepN': 18}>
+7.0770 	DATA 	Keypress: j
+7.0827 	INFO 	Keyboard events cleared
+7.0825 	EXP 	error_feedback: autoDraw = True
+7.0825 	EXP 	MAN: autoDraw = False
+7.0825 	EXP 	WOMAN: autoDraw = False
+7.0825 	EXP 	pic: autoDraw = False
+7.0825 	EXP 	error_feedback: autoDraw = False
+7.0825 	EXP 	pic: image = 'women.png'
+7.0825 	EXP 	MAN: autoDraw = True
+7.0825 	EXP 	WOMAN: autoDraw = True
+7.0825 	EXP 	pic: autoDraw = True
+7.0983 	EXP 	Device response: <KeyPress from None: t=6.887145700049587, value=j, duration=0.20257470000069588>
+7.1496 	DATA 	Keypress: j
+7.1649 	EXP 	Device response: <KeyPress from None: t=7.1491401999956, value=j, duration=None>
+7.1653 	EXP 	New trial (rep=19, index=39): <Trial 39 (39 in rep 19) data={'Male': 'นเรศ', 'Female': 'พิมพ์ใจ', 'Image': 'women.png', 'Name': 'นเรศ', 'ImagePriming': 'men.png', 'NamePriming': 'นเรศ', 'ImageTrig': np.int64(10), 'NameTrig': np.int64(51), 'Trig': np.int64(101), 'thisN': 39, 'thisTrialN': 39, 'thisRepN': 19}>
+7.2022 	INFO 	Keyboard events cleared
+7.2020 	EXP 	error_feedback: autoDraw = True
+7.2020 	EXP 	MAN: autoDraw = False
+7.2020 	EXP 	WOMAN: autoDraw = False
+7.2020 	EXP 	pic: autoDraw = False
+7.2020 	EXP 	error_feedback: autoDraw = False
+7.2020 	EXP 	pic: image = 'women.png'
+7.2020 	EXP 	MAN: autoDraw = True
+7.2020 	EXP 	WOMAN: autoDraw = True
+7.2020 	EXP 	pic: autoDraw = True
+7.2150 	EXP 	Device response: <KeyPress from None: t=7.040350400027819, value=j, duration=0.16319220000877976>
+7.2984 	EXP 	Device response: <KeyPress from None: t=7.290861599962227, value=j, duration=None>
+7.2999 	DATA 	Keypress: j
+7.3170 	INFO 	Keyboard events cleared
+7.3168 	EXP 	error_feedback: autoDraw = True
+7.3168 	EXP 	MAN: autoDraw = False
+7.3168 	EXP 	WOMAN: autoDraw = False
+7.3168 	EXP 	pic: autoDraw = False
+7.3168 	EXP 	error_feedback: autoDraw = False
+7.3168 	EXP 	instruction_slide_2: autoDraw = True
+7.3672 	EXP 	Device response: <KeyPress from None: t=7.1491401999956, value=j, duration=0.20238939998671412>
+8.1338 	EXP 	Device response: <KeyPress from None: t=8.121673100045882, value=space, duration=None>
+8.1412 	EXP 	Imported Training loop.csv as conditions, 40 conditions, 9 params
+8.1434 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'Male': None, 'Female': None, 'Image': None, 'Name': 'อาภรณ์', 'ImagePriming': 'men.png', 'NamePriming': 'อาภรณ์', 'ImageTrig': np.int64(10), 'NameTrig': np.int64(65), 'Trig': np.int64(115), 'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+8.4605 	EXP 	Device response: <KeyPress from None: t=8.121673100045882, value=space, duration=0.10884959995746613>
+8.4678 	DATA 	Keypress: space
+8.4797 	INFO 	Keyboard events cleared
+8.4794 	EXP 	instruction_slide_2: autoDraw = False
+8.4794 	EXP 	pic_2: image = 'men.png'
+8.4794 	EXP 	MAN_3: autoDraw = True
+8.4794 	EXP 	MAN_3_desc: autoDraw = True
+8.4794 	EXP 	WOMAN_3: autoDraw = True
+8.4794 	EXP 	WOMAN_3_desc: autoDraw = True
+8.4794 	EXP 	name_2: autoDraw = True
+8.4794 	EXP 	pic_2: autoDraw = True
+8.7828 	EXP 	name_2: autoDraw = False
+9.4996 	EXP 	Device response: <KeyPress from None: t=9.497331000049599, value=k, duration=None>
+9.5000 	EXP 	New trial (rep=0, index=1): <Trial 1 (1 in rep 0) data={'Male': None, 'Female': None, 'Image': None, 'Name': None, 'ImagePriming': 'women.png', 'NamePriming': 'พิสิฐ', 'ImageTrig': np.int64(11), 'NameTrig': np.int64(59), 'Trig': np.int64(129), 'thisN': 1, 'thisTrialN': 1, 'thisRepN': 0}>
+9.7488 	EXP 	Device response: <KeyPress from None: t=4.2296100000385195, value=k, duration=5.39148839993868>
+9.7535 	DATA 	Keypress: k
+9.7618 	INFO 	Keyboard events cleared
+9.7616 	EXP 	MAN_3: autoDraw = False
+9.7616 	EXP 	MAN_3_desc: autoDraw = False
+9.7616 	EXP 	WOMAN_3: autoDraw = False
+9.7616 	EXP 	WOMAN_3_desc: autoDraw = False
+9.7616 	EXP 	name_2: autoDraw = False
+9.7616 	EXP 	pic_2: autoDraw = False
+9.7616 	EXP 	pic_2: image = 'women.png'
+9.7616 	EXP 	MAN_3: autoDraw = True
+9.7616 	EXP 	MAN_3_desc: autoDraw = True
+9.7616 	EXP 	WOMAN_3: autoDraw = True
+9.7616 	EXP 	WOMAN_3_desc: autoDraw = True
+9.7616 	EXP 	name_2: autoDraw = True
+9.8156 	EXP 	pic_2: autoDraw = True
+10.0656 	EXP 	name_2: autoDraw = False
+10.3328 	EXP 	Device response: <KeyPress from None: t=10.322736700065434, value=j, duration=None>
+10.3333 	EXP 	New trial (rep=0, index=2): <Trial 2 (2 in rep 0) data={'Male': None, 'Female': None, 'Image': None, 'Name': None, 'ImagePriming': 'women.png', 'NamePriming': 'พิมพ์ใจ', 'ImageTrig': np.int64(11), 'NameTrig': np.int64(61), 'Trig': np.int64(131), 'thisN': 2, 'thisTrialN': 2, 'thisRepN': 0}>
+10.5419 	EXP 	Device response: <KeyPress from None: t=7.290861599962227, value=j, duration=3.1495195000898093>
+10.5460 	DATA 	Keypress: j
+10.5539 	INFO 	Keyboard events cleared
+10.5536 	EXP 	MAN_3: autoDraw = False
+10.5536 	EXP 	MAN_3_desc: autoDraw = False
+10.5536 	EXP 	WOMAN_3: autoDraw = False
+10.5536 	EXP 	WOMAN_3_desc: autoDraw = False
+10.5536 	EXP 	name_2: autoDraw = False
+10.5536 	EXP 	pic_2: autoDraw = False
+10.5536 	EXP 	pic_2: image = 'women.png'
+10.5536 	EXP 	MAN_3: autoDraw = True
+10.5536 	EXP 	MAN_3_desc: autoDraw = True
+10.5536 	EXP 	WOMAN_3: autoDraw = True
+10.5536 	EXP 	WOMAN_3_desc: autoDraw = True
+10.5536 	EXP 	name_2: autoDraw = True
+10.6483 	EXP 	pic_2: autoDraw = True
+10.8657 	EXP 	name_2: autoDraw = False
+11.1009 	DATA 	Keypress: k
+11.1160 	EXP 	Device response: <KeyPress from None: t=11.099275300046429, value=k, duration=None>
+11.1163 	EXP 	New trial (rep=0, index=3): <Trial 3 (3 in rep 0) data={'Male': None, 'Female': None, 'Image': None, 'Name': None, 'ImagePriming': 'women.png', 'NamePriming': 'ศิริพร', 'ImageTrig': np.int64(11), 'NameTrig': np.int64(64), 'Trig': np.int64(134), 'thisN': 3, 'thisTrialN': 3, 'thisRepN': 0}>
+11.2223 	INFO 	Keyboard events cleared
+11.2221 	EXP 	MAN_3: autoDraw = False
+11.2221 	EXP 	MAN_3_desc: autoDraw = False
+11.2221 	EXP 	WOMAN_3: autoDraw = False
+11.2221 	EXP 	WOMAN_3_desc: autoDraw = False
+11.2221 	EXP 	name_2: autoDraw = False
+11.2221 	EXP 	pic_2: autoDraw = False
+11.2221 	EXP 	pic_2: image = 'women.png'
+11.2221 	EXP 	MAN_3: autoDraw = True
+11.2221 	EXP 	MAN_3_desc: autoDraw = True
+11.2221 	EXP 	WOMAN_3: autoDraw = True
+11.2221 	EXP 	WOMAN_3_desc: autoDraw = True
+11.2221 	EXP 	name_2: autoDraw = True
+11.2650 	EXP 	Device response: <KeyPress from None: t=9.497331000049599, value=k, duration=1.765457100002095>
+11.4319 	EXP 	pic_2: autoDraw = True
+11.5326 	EXP 	name_2: autoDraw = False
+11.7154 	EXP 	Device response: <KeyPress from None: t=11.703386000008322, value=k, duration=None>
+11.7158 	EXP 	New trial (rep=0, index=4): <Trial 4 (4 in rep 0) data={'Male': None, 'Female': None, 'Image': None, 'Name': 'จิตติมา', 'ImagePriming': 'men.png', 'NamePriming': 'จิตติมา', 'ImageTrig': np.int64(10), 'NameTrig': np.int64(66), 'Trig': np.int64(116), 'thisN': 4, 'thisTrialN': 4, 'thisRepN': 0}>
+11.8081 	DATA 	Keypress: k
+11.8155 	INFO 	Keyboard events cleared
+11.8153 	EXP 	MAN_3: autoDraw = False
+11.8153 	EXP 	MAN_3_desc: autoDraw = False
+11.8153 	EXP 	WOMAN_3: autoDraw = False
+11.8153 	EXP 	WOMAN_3_desc: autoDraw = False
+11.8153 	EXP 	name_2: autoDraw = False
+11.8153 	EXP 	pic_2: autoDraw = False
+11.8153 	EXP 	pic_2: image = 'men.png'
+11.8153 	EXP 	MAN_3: autoDraw = True
+11.8153 	EXP 	MAN_3_desc: autoDraw = True
+11.8153 	EXP 	WOMAN_3: autoDraw = True
+11.8153 	EXP 	WOMAN_3_desc: autoDraw = True
+11.8153 	EXP 	name_2: autoDraw = True
+11.8317 	EXP 	Device response: <KeyPress from None: t=11.099275300046429, value=k, duration=0.7249797999393195>
+12.0160 	EXP 	pic_2: autoDraw = True
+12.1325 	EXP 	name_2: autoDraw = False
+12.2339 	DATA 	Keypress: k
+12.2481 	EXP 	Device response: <KeyPress from None: t=12.231955799972638, value=k, duration=None>
+12.2486 	EXP 	New trial (rep=0, index=5): <Trial 5 (5 in rep 0) data={'Male': 'อรรถพล', 'Female': 'สุพัตรา', 'Image': None, 'Name': 'อรรถพล', 'ImagePriming': 'men.png', 'NamePriming': 'อรรถพล', 'ImageTrig': np.int64(10), 'NameTrig': np.int64(53), 'Trig': np.int64(103), 'thisN': 5, 'thisTrialN': 5, 'thisRepN': 0}>
+12.3892 	EXP 	Device response: <KeyPress from None: t=11.703386000008322, value=k, duration=0.6246256000595167>
+12.4013 	INFO 	Keyboard events cleared
+12.4010 	EXP 	MAN_3: autoDraw = False
+12.4010 	EXP 	MAN_3_desc: autoDraw = False
+12.4010 	EXP 	WOMAN_3: autoDraw = False
+12.4010 	EXP 	WOMAN_3_desc: autoDraw = False
+12.4010 	EXP 	name_2: autoDraw = False
+12.4010 	EXP 	pic_2: autoDraw = False
+12.4010 	EXP 	pic_2: image = 'men.png'
+12.4010 	EXP 	MAN_3: autoDraw = True
+12.4010 	EXP 	MAN_3_desc: autoDraw = True
+12.4010 	EXP 	WOMAN_3: autoDraw = True
+12.4010 	EXP 	WOMAN_3_desc: autoDraw = True
+12.4010 	EXP 	name_2: autoDraw = True
+12.5646 	EXP 	pic_2: autoDraw = True
+12.7143 	EXP 	name_2: autoDraw = False
+12.7980 	EXP 	Device response: <KeyPress from None: t=12.790541799971834, value=k, duration=None>
+12.7985 	EXP 	New trial (rep=0, index=6): <Trial 6 (6 in rep 0) data={'Male': None, 'Female': None, 'Image': None, 'Name': None, 'ImagePriming': 'women.png', 'NamePriming': 'วรพล', 'ImageTrig': np.int64(11), 'NameTrig': np.int64(57), 'Trig': np.int64(127), 'thisN': 6, 'thisTrialN': 6, 'thisRepN': 0}>
+12.8763 	DATA 	Keypress: k
+12.8849 	INFO 	Keyboard events cleared
+12.8847 	EXP 	MAN_3: autoDraw = False
+12.8847 	EXP 	MAN_3_desc: autoDraw = False
+12.8847 	EXP 	WOMAN_3: autoDraw = False
+12.8847 	EXP 	WOMAN_3_desc: autoDraw = False
+12.8847 	EXP 	name_2: autoDraw = False
+12.8847 	EXP 	pic_2: autoDraw = False
+12.8847 	EXP 	pic_2: image = 'women.png'
+12.8847 	EXP 	MAN_3: autoDraw = True
+12.8847 	EXP 	MAN_3_desc: autoDraw = True
+12.8847 	EXP 	WOMAN_3: autoDraw = True
+12.8847 	EXP 	WOMAN_3_desc: autoDraw = True
+12.8847 	EXP 	name_2: autoDraw = True
+12.9317 	EXP 	Device response: <KeyPress from None: t=12.231955799972638, value=k, duration=0.6881573999999091>
+13.0991 	EXP 	pic_2: autoDraw = True
+13.1986 	EXP 	name_2: autoDraw = False
+13.3516 	DATA 	Keypress: k
+13.3658 	EXP 	Device response: <KeyPress from None: t=13.34924630005844, value=k, duration=None>
+13.3663 	EXP 	New trial (rep=0, index=7): <Trial 7 (7 in rep 0) data={'Male': None, 'Female': None, 'Image': None, 'Name': None, 'ImagePriming': 'women.png', 'NamePriming': 'สุนิสา', 'ImageTrig': np.int64(11), 'NameTrig': np.int64(68), 'Trig': np.int64(138), 'thisN': 7, 'thisTrialN': 7, 'thisRepN': 0}>
+13.4773 	EXP 	Device response: <KeyPress from None: t=12.790541799971834, value=k, duration=0.6715213999850675>
+13.4896 	INFO 	Keyboard events cleared
+13.4894 	EXP 	MAN_3: autoDraw = False
+13.4894 	EXP 	MAN_3_desc: autoDraw = False
+13.4894 	EXP 	WOMAN_3: autoDraw = False
+13.4894 	EXP 	WOMAN_3_desc: autoDraw = False
+13.4894 	EXP 	name_2: autoDraw = False
+13.4894 	EXP 	pic_2: autoDraw = False
+13.4894 	EXP 	pic_2: image = 'women.png'
+13.4894 	EXP 	MAN_3: autoDraw = True
+13.4894 	EXP 	MAN_3_desc: autoDraw = True
+13.4894 	EXP 	WOMAN_3: autoDraw = True
+13.4894 	EXP 	WOMAN_3_desc: autoDraw = True
+13.4894 	EXP 	name_2: autoDraw = True
+13.6821 	EXP 	pic_2: autoDraw = True
+13.7992 	EXP 	name_2: autoDraw = False
+13.9488 	EXP 	Device response: <KeyPress from None: t=13.938506899983622, value=j, duration=None>
+13.9493 	EXP 	New trial (rep=0, index=8): <Trial 8 (8 in rep 0) data={'Male': None, 'Female': None, 'Image': None, 'Name': 'พิมพ์ใจ', 'ImagePriming': 'men.png', 'NamePriming': 'พิมพ์ใจ', 'ImageTrig': np.int64(10), 'NameTrig': np.int64(61), 'Trig': np.int64(111), 'thisN': 8, 'thisTrialN': 8, 'thisRepN': 0}>
+13.9817 	DATA 	Keypress: j
+13.9881 	INFO 	Keyboard events cleared
+13.9878 	EXP 	MAN_3: autoDraw = False
+13.9878 	EXP 	MAN_3_desc: autoDraw = False
+13.9878 	EXP 	WOMAN_3: autoDraw = False
+13.9878 	EXP 	WOMAN_3_desc: autoDraw = False
+13.9878 	EXP 	name_2: autoDraw = False
+13.9878 	EXP 	pic_2: autoDraw = False
+13.9878 	EXP 	pic_2: image = 'men.png'
+13.9878 	EXP 	MAN_3: autoDraw = True
+13.9878 	EXP 	MAN_3_desc: autoDraw = True
+13.9878 	EXP 	WOMAN_3: autoDraw = True
+13.9878 	EXP 	WOMAN_3_desc: autoDraw = True
+13.9878 	EXP 	name_2: autoDraw = True
+14.0652 	EXP 	Device response: <KeyPress from None: t=10.322736700065434, value=j, duration=3.7323964999523014>
+14.2655 	EXP 	pic_2: autoDraw = True
+14.2985 	EXP 	name_2: autoDraw = False
+14.7649 	EXP 	Device response: <KeyPress from None: t=14.759025000035763, value=k, duration=None>
+14.7653 	EXP 	New trial (rep=0, index=9): <Trial 9 (9 in rep 0) data={'Male': None, 'Female': None, 'Image': None, 'Name': None, 'ImagePriming': 'women.png', 'NamePriming': 'จิตติมา', 'ImageTrig': np.int64(11), 'NameTrig': np.int64(66), 'Trig': np.int64(136), 'thisN': 9, 'thisTrialN': 9, 'thisRepN': 0}>
+14.7987 	DATA 	Keypress: k
+14.8052 	INFO 	Keyboard events cleared
+14.8049 	EXP 	MAN_3: autoDraw = False
+14.8049 	EXP 	MAN_3_desc: autoDraw = False
+14.8049 	EXP 	WOMAN_3: autoDraw = False
+14.8049 	EXP 	WOMAN_3_desc: autoDraw = False
+14.8049 	EXP 	name_2: autoDraw = False
+14.8049 	EXP 	pic_2: autoDraw = False
+14.8049 	EXP 	pic_2: image = 'women.png'
+14.8049 	EXP 	MAN_3: autoDraw = True
+14.8049 	EXP 	MAN_3_desc: autoDraw = True
+14.8049 	EXP 	WOMAN_3: autoDraw = True
+14.8049 	EXP 	WOMAN_3_desc: autoDraw = True
+14.8049 	EXP 	name_2: autoDraw = True
+14.8815 	EXP 	Device response: <KeyPress from None: t=13.34924630005844, value=k, duration=1.515914999996312>
+15.0651 	EXP 	pic_2: autoDraw = True
+15.1149 	EXP 	name_2: autoDraw = False
+15.3978 	EXP 	Device response: <KeyPress from None: t=15.393788199988194, value=k, duration=None>
+15.3981 	EXP 	New trial (rep=0, index=10): <Trial 10 (10 in rep 0) data={'Male': None, 'Female': None, 'Image': None, 'Name': 'วาสนา', 'ImagePriming': 'men.png', 'NamePriming': 'วาสนา', 'ImageTrig': np.int64(10), 'NameTrig': np.int64(62), 'Trig': np.int64(112), 'thisN': 10, 'thisTrialN': 10, 'thisRepN': 0}>
+15.4307 	DATA 	Keypress: k
+15.4369 	INFO 	Keyboard events cleared
+15.4367 	EXP 	MAN_3: autoDraw = False
+15.4367 	EXP 	MAN_3_desc: autoDraw = False
+15.4367 	EXP 	WOMAN_3: autoDraw = False
+15.4367 	EXP 	WOMAN_3_desc: autoDraw = False
+15.4367 	EXP 	name_2: autoDraw = False
+15.4367 	EXP 	pic_2: autoDraw = False
+15.4367 	EXP 	pic_2: image = 'men.png'
+15.4367 	EXP 	MAN_3: autoDraw = True
+15.4367 	EXP 	MAN_3_desc: autoDraw = True
+15.4367 	EXP 	WOMAN_3: autoDraw = True
+15.4367 	EXP 	WOMAN_3_desc: autoDraw = True
+15.4367 	EXP 	name_2: autoDraw = True
+15.5146 	EXP 	Device response: <KeyPress from None: t=14.759025000035763, value=k, duration=0.7393008000217378>
+15.6982 	EXP 	pic_2: autoDraw = True
+15.7485 	EXP 	name_2: autoDraw = False
+15.8658 	EXP 	Device response: <KeyPress from None: t=15.856957599986345, value=k, duration=None>
+15.8663 	EXP 	New trial (rep=0, index=11): <Trial 11 (11 in rep 0) data={'Male': None, 'Female': None, 'Image': None, 'Name': None, 'ImagePriming': 'women.png', 'NamePriming': 'วรรณา', 'ImageTrig': np.int64(11), 'NameTrig': np.int64(67), 'Trig': np.int64(137), 'thisN': 11, 'thisTrialN': 11, 'thisRepN': 0}>
+15.9029 	DATA 	Keypress: k
+15.9102 	INFO 	Keyboard events cleared
+15.9099 	EXP 	MAN_3: autoDraw = False
+15.9099 	EXP 	MAN_3_desc: autoDraw = False
+15.9099 	EXP 	WOMAN_3: autoDraw = False
+15.9099 	EXP 	WOMAN_3_desc: autoDraw = False
+15.9099 	EXP 	name_2: autoDraw = False
+15.9099 	EXP 	pic_2: autoDraw = False
+15.9099 	EXP 	pic_2: image = 'women.png'
+15.9099 	EXP 	MAN_3: autoDraw = True
+15.9099 	EXP 	MAN_3_desc: autoDraw = True
+15.9099 	EXP 	WOMAN_3: autoDraw = True
+15.9099 	EXP 	WOMAN_3_desc: autoDraw = True
+15.9099 	EXP 	name_2: autoDraw = True
+15.9815 	EXP 	Device response: <KeyPress from None: t=15.393788199988194, value=k, duration=0.583199999993667>
+16.1818 	EXP 	pic_2: autoDraw = True
+16.2151 	EXP 	name_2: autoDraw = False
+16.3979 	EXP 	Device response: <KeyPress from None: t=16.386802399996668, value=k, duration=None>
+16.3983 	EXP 	New trial (rep=0, index=12): <Trial 12 (12 in rep 0) data={'Male': None, 'Female': None, 'Image': None, 'Name': None, 'ImagePriming': 'women.png', 'NamePriming': 'สุพัตรา', 'ImageTrig': np.int64(11), 'NameTrig': np.int64(63), 'Trig': np.int64(133), 'thisN': 12, 'thisTrialN': 12, 'thisRepN': 0}>
+16.4489 	DATA 	Keypress: k
+16.4570 	INFO 	Keyboard events cleared
+16.4568 	EXP 	MAN_3: autoDraw = False
+16.4568 	EXP 	MAN_3_desc: autoDraw = False
+16.4568 	EXP 	WOMAN_3: autoDraw = False
+16.4568 	EXP 	WOMAN_3_desc: autoDraw = False
+16.4568 	EXP 	name_2: autoDraw = False
+16.4568 	EXP 	pic_2: autoDraw = False
+16.4568 	EXP 	pic_2: image = 'women.png'
+16.4568 	EXP 	MAN_3: autoDraw = True
+16.4568 	EXP 	MAN_3_desc: autoDraw = True
+16.4568 	EXP 	WOMAN_3: autoDraw = True
+16.4568 	EXP 	WOMAN_3_desc: autoDraw = True
+16.4568 	EXP 	name_2: autoDraw = True
+16.4813 	EXP 	Device response: <KeyPress from None: t=15.856957599986345, value=k, duration=0.6211474000010639>
+16.6983 	EXP 	pic_2: autoDraw = True
+16.7649 	EXP 	name_2: autoDraw = False
+16.8488 	EXP 	Device response: <KeyPress from None: t=16.848056999966502, value=k, duration=None>
+16.8491 	EXP 	New trial (rep=0, index=13): <Trial 13 (13 in rep 0) data={'Male': 'ชัยวัฒน์', 'Female': 'ศิริพร', 'Image': None, 'Name': 'ชัยวัฒน์', 'ImagePriming': 'men.png', 'NamePriming': 'ชัยวัฒน์', 'ImageTrig': np.int64(10), 'NameTrig': np.int64(54), 'Trig': np.int64(104), 'thisN': 13, 'thisTrialN': 13, 'thisRepN': 0}>
+17.0482 	EXP 	Device response: <KeyPress from None: t=16.386802399996668, value=k, duration=0.5738910000072792>
+17.0531 	DATA 	Keypress: k
+17.0606 	INFO 	Keyboard events cleared
+17.0603 	EXP 	MAN_3: autoDraw = False
+17.0603 	EXP 	MAN_3_desc: autoDraw = False
+17.0603 	EXP 	WOMAN_3: autoDraw = False
+17.0603 	EXP 	WOMAN_3_desc: autoDraw = False
+17.0603 	EXP 	name_2: autoDraw = False
+17.0603 	EXP 	pic_2: autoDraw = False
+17.0603 	EXP 	pic_2: image = 'men.png'
+17.0603 	EXP 	MAN_3: autoDraw = True
+17.0603 	EXP 	MAN_3_desc: autoDraw = True
+17.0603 	EXP 	WOMAN_3: autoDraw = True
+17.0603 	EXP 	WOMAN_3_desc: autoDraw = True
+17.0603 	EXP 	name_2: autoDraw = True
+17.1648 	EXP 	pic_2: autoDraw = True
+17.3646 	EXP 	name_2: autoDraw = False
+17.4655 	EXP 	Device response: <KeyPress from None: t=17.454030800028704, value=k, duration=None>
+17.4662 	EXP 	New trial (rep=0, index=14): <Trial 14 (14 in rep 0) data={'Male': None, 'Female': None, 'Image': None, 'Name': 'สุนิสา', 'ImagePriming': 'men.png', 'NamePriming': 'สุนิสา', 'ImageTrig': np.int64(10), 'NameTrig': np.int64(68), 'Trig': np.int64(118), 'thisN': 14, 'thisTrialN': 14, 'thisRepN': 0}>
+17.4992 	DATA 	Keypress: k
+17.5056 	INFO 	Keyboard events cleared
+17.5054 	EXP 	MAN_3: autoDraw = False
+17.5054 	EXP 	MAN_3_desc: autoDraw = False
+17.5054 	EXP 	WOMAN_3: autoDraw = False
+17.5054 	EXP 	WOMAN_3_desc: autoDraw = False
+17.5054 	EXP 	name_2: autoDraw = False
+17.5054 	EXP 	pic_2: autoDraw = False
+17.5054 	EXP 	pic_2: image = 'men.png'
+17.5054 	EXP 	MAN_3: autoDraw = True
+17.5054 	EXP 	MAN_3_desc: autoDraw = True
+17.5054 	EXP 	WOMAN_3: autoDraw = True
+17.5054 	EXP 	WOMAN_3_desc: autoDraw = True
+17.5054 	EXP 	name_2: autoDraw = True
+17.5648 	EXP 	Device response: <KeyPress from None: t=16.848056999966502, value=k, duration=0.7075712000951171>
+17.7817 	EXP 	pic_2: autoDraw = True
+17.8148 	EXP 	name_2: autoDraw = False
+18.3147 	EXP 	Device response: <KeyPress from None: t=18.313569999998435, value=k, duration=None>
+18.3150 	EXP 	New trial (rep=0, index=15): <Trial 15 (15 in rep 0) data={'Male': None, 'Female': None, 'Image': None, 'Name': None, 'ImagePriming': 'women.png', 'NamePriming': 'ชัยวัฒน์', 'ImageTrig': np.int64(11), 'NameTrig': np.int64(54), 'Trig': np.int64(124), 'thisN': 15, 'thisTrialN': 15, 'thisRepN': 0}>
+18.3463 	DATA 	Keypress: k
+18.3531 	INFO 	Keyboard events cleared
+18.3528 	EXP 	MAN_3: autoDraw = False
+18.3528 	EXP 	MAN_3_desc: autoDraw = False
+18.3528 	EXP 	WOMAN_3: autoDraw = False
+18.3528 	EXP 	WOMAN_3_desc: autoDraw = False
+18.3528 	EXP 	name_2: autoDraw = False
+18.3528 	EXP 	pic_2: autoDraw = False
+18.3528 	EXP 	pic_2: image = 'women.png'
+18.3528 	EXP 	MAN_3: autoDraw = True
+18.3528 	EXP 	MAN_3_desc: autoDraw = True
+18.3528 	EXP 	WOMAN_3: autoDraw = True
+18.3528 	EXP 	WOMAN_3_desc: autoDraw = True
+18.3528 	EXP 	name_2: autoDraw = True
+18.4148 	EXP 	Device response: <KeyPress from None: t=17.454030800028704, value=k, duration=0.9579056999646127>
+18.6139 	EXP 	pic_2: autoDraw = True
+18.6648 	EXP 	name_2: autoDraw = False
+19.0350 	DATA 	Keypress: k
+19.0484 	EXP 	Device response: <KeyPress from None: t=19.032421899959445, value=k, duration=None>
+19.0488 	EXP 	New trial (rep=0, index=16): <Trial 16 (16 in rep 0) data={'Male': None, 'Female': None, 'Image': None, 'Name': None, 'ImagePriming': 'women.png', 'NamePriming': 'ธนพล', 'ImageTrig': np.int64(11), 'NameTrig': np.int64(52), 'Trig': np.int64(122), 'thisN': 16, 'thisTrialN': 16, 'thisRepN': 0}>
+19.1397 	INFO 	Keyboard events cleared
+19.1395 	EXP 	MAN_3: autoDraw = False
+19.1395 	EXP 	MAN_3_desc: autoDraw = False
+19.1395 	EXP 	WOMAN_3: autoDraw = False
+19.1395 	EXP 	WOMAN_3_desc: autoDraw = False
+19.1395 	EXP 	name_2: autoDraw = False
+19.1395 	EXP 	pic_2: autoDraw = False
+19.1395 	EXP 	pic_2: image = 'women.png'
+19.1395 	EXP 	MAN_3: autoDraw = True
+19.1395 	EXP 	MAN_3_desc: autoDraw = True
+19.1395 	EXP 	WOMAN_3: autoDraw = True
+19.1395 	EXP 	WOMAN_3_desc: autoDraw = True
+19.1395 	EXP 	name_2: autoDraw = True
+19.3479 	EXP 	pic_2: autoDraw = True
+19.4479 	EXP 	name_2: autoDraw = False
+19.5982 	EXP 	Device response: <KeyPress from None: t=19.596020200056955, value=k, duration=None>
+19.5985 	EXP 	New trial (rep=0, index=17): <Trial 17 (17 in rep 0) data={'Male': 'ศักดิ์สิทธิ์', 'Female': 'สุนิสา', 'Image': None, 'Name': 'ศักดิ์สิทธิ์', 'ImagePriming': 'men.png', 'NamePriming': 'ศักดิ์สิทธิ์', 'ImageTrig': np.int64(10), 'NameTrig': np.int64(58), 'Trig': np.int64(108), 'thisN': 17, 'thisTrialN': 17, 'thisRepN': 0}>
+19.7848 	EXP 	Device response: <KeyPress from None: t=18.313569999998435, value=k, duration=1.387794499984011>
+19.7899 	DATA 	Keypress: k
+19.7977 	INFO 	Keyboard events cleared
+19.7975 	EXP 	MAN_3: autoDraw = False
+19.7975 	EXP 	MAN_3_desc: autoDraw = False
+19.7975 	EXP 	WOMAN_3: autoDraw = False
+19.7975 	EXP 	WOMAN_3_desc: autoDraw = False
+19.7975 	EXP 	name_2: autoDraw = False
+19.7975 	EXP 	pic_2: autoDraw = False
+19.7975 	EXP 	pic_2: image = 'men.png'
+19.7975 	EXP 	MAN_3: autoDraw = True
+19.7975 	EXP 	MAN_3_desc: autoDraw = True
+19.7975 	EXP 	WOMAN_3: autoDraw = True
+19.7975 	EXP 	WOMAN_3_desc: autoDraw = True
+19.7975 	EXP 	name_2: autoDraw = True
+19.8978 	EXP 	pic_2: autoDraw = True
+20.0981 	EXP 	name_2: autoDraw = False
+20.1823 	EXP 	Device response: <KeyPress from None: t=20.16761620005127, value=j, duration=None>
+20.1826 	EXP 	New trial (rep=0, index=18): <Trial 18 (18 in rep 0) data={'Male': None, 'Female': None, 'Image': None, 'Name': 'วรรณา', 'ImagePriming': 'men.png', 'NamePriming': 'วรรณา', 'ImageTrig': np.int64(10), 'NameTrig': np.int64(67), 'Trig': np.int64(117), 'thisN': 18, 'thisTrialN': 18, 'thisRepN': 0}>
+20.2144 	DATA 	Keypress: j
+20.2207 	INFO 	Keyboard events cleared
+20.2205 	EXP 	MAN_3: autoDraw = False
+20.2205 	EXP 	MAN_3_desc: autoDraw = False
+20.2205 	EXP 	WOMAN_3: autoDraw = False
+20.2205 	EXP 	WOMAN_3_desc: autoDraw = False
+20.2205 	EXP 	name_2: autoDraw = False
+20.2205 	EXP 	pic_2: autoDraw = False
+20.2205 	EXP 	pic_2: image = 'men.png'
+20.2205 	EXP 	MAN_3: autoDraw = True
+20.2205 	EXP 	MAN_3_desc: autoDraw = True
+20.2205 	EXP 	WOMAN_3: autoDraw = True
+20.2205 	EXP 	WOMAN_3_desc: autoDraw = True
+20.2205 	EXP 	name_2: autoDraw = True
+20.2648 	EXP 	Device response: <KeyPress from None: t=13.938506899983622, value=j, duration=6.312048000050709>
+20.4972 	EXP 	pic_2: autoDraw = True
+20.5313 	EXP 	name_2: autoDraw = False
+21.1143 	EXP 	Device response: <KeyPress from None: t=21.10427550005261, value=escape, duration=None>
+21.1157 	DATA 	Keypress: escape
+21.2979 	EXP 	Device response: <KeyPress from None: t=21.10427550005261, value=escape, duration=0.18419850000645965>
+21.2981 	EXP 	Priming_gender: status = STOPPED
+21.3137 	EXP 	MAN_3: autoDraw = False
+21.3137 	EXP 	MAN_3_desc: autoDraw = False
+21.3137 	EXP 	WOMAN_3: autoDraw = False
+21.3137 	EXP 	WOMAN_3_desc: autoDraw = False
+21.3137 	EXP 	pic_2: autoDraw = False
+21.3140 	EXP 	Priming_gender: status = STOPPED
+21.3503 	INFO 	saved data to 'C:\\Users\\engpc\\Downloads\\Pilot26_sep\\data\\604732_Priming_gender_2025-09-26_10h23.23.551.csv'
+21.3538 	INFO 	saved data to C:\Users\engpc\Downloads\Pilot26_sep\data\604732_Priming_gender_2025-09-26_10h23.23.551.psydat
+21.5215 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+21.5913 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+21.5914 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+21.5914 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+21.5914 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.

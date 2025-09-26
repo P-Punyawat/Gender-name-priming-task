@@ -1,0 +1,38 @@
+6.5027 	INFO 	Loaded monitor calibration from ['2025_09_24 10:44']
+6.5120 	WARNING 	User requested fullscreen with size [1024  768], but screen is actually [1920, 1080]. Using actual size
+6.6830 	INFO 	Using renderer 'AMD Radeon(TM) Graphics' for graphics
+6.6831 	INFO 	OpenGL version supported by driver is 4..
+6.7148 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001D5661CD6C0>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001D5661CD660>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=True, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000001D5662B0E50>, multiSample=False, name='window1', numSamples=2, pos=[np.float64(0.0), np.float64(0.0)], screen=0, size=array([1920, 1080]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+6.7148 	EXP 	window1: backgroundImage = ''
+6.7149 	EXP 	window1: backgroundFit = 'none'
+7.0869 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+7.0869 	EXP 	window1: recordFrameIntervals = False
+7.3196 	EXP 	window1: recordFrameIntervals = True
+7.5037 	EXP 	Screen (0) actual frame rate measured at 60.83Hz
+7.5037 	EXP 	window1: recordFrameIntervals = False
+7.5593 	INFO 	keyboard.Keyboard is using ptb backend.
+7.5595 	INFO 	keyboard.Keyboard is using ptb backend.
+7.5597 	INFO 	keyboard.Keyboard is using ptb backend.
+7.5597 	EXP 	Priming_gender: status = STARTED
+7.6315 	EXP 	Created MAN = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.1), italic=False, languageStyle='LTR', name='MAN', opacity=1, ori=0.0, pos=array([0.8, 0.8]), rgb=UNKNOWN, text='MAN', units='norm', win=Window(...), wrapWidth=1)
+7.6361 	EXP 	Created WOMAN = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.1), italic=False, languageStyle='LTR', name='WOMAN', opacity=1, ori=0.0, pos=array([-0.8,  0.8]), rgb=UNKNOWN, text='WOMAN', units='norm', win=Window(...), wrapWidth=1)
+7.6368 	EXP 	Created Male_name = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='Male_name', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='norm', win=Window(...), wrapWidth=1)
+7.6374 	EXP 	Created MAN_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='MAN_2', opacity=1, ori=0.0, pos=array([0.8, 0.8]), rgb=UNKNOWN, text='', units='norm', win=Window(...), wrapWidth=1)
+7.6380 	EXP 	Created WOMAN_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='WOMAN_2', opacity=1, ori=0.0, pos=array([-0.8,  0.8]), rgb=UNKNOWN, text='', units='norm', win=Window(...), wrapWidth=1)
+7.6386 	EXP 	Created Female_name = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='Female_name', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='norm', win=Window(...), wrapWidth=1)
+0.0075 	EXP 	Imported Training loop.csv as conditions, 10 conditions, 2 params
+0.0085 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'Male': 'อรรถพล', 'Female': 'สุพัตรา', 'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+0.0185 	INFO 	Keyboard events cleared
+0.0183 	EXP 	Male_name: height = np.float64(0.1)
+0.0183 	EXP 	Male_name: height = np.float64(0.1)
+0.0183 	EXP 	Male_name: height = np.float64(0.1)
+0.0183 	EXP 	Male_name: text = 'อรรถพล'
+0.0183 	EXP 	MAN: autoDraw = True
+0.0183 	EXP 	WOMAN: autoDraw = True
+0.0183 	EXP 	Male_name: autoDraw = True
+1.2346 	EXP 	Device response: <KeyPress from None: t=1.218871399993077, value=j, duration=None>
+1.3395 	INFO 	saved data to C:\Users\engpc\Downloads\Neuromarketing\Neuromarketing\Pilot\data\767790_Priming_gender_2025-09-25_14h43.06.453.psydat
+1.3404 	INFO 	saved data to 'C:\\Users\\engpc\\Downloads\\Neuromarketing\\Neuromarketing\\Pilot\\data\\767790_Priming_gender_2025-09-25_14h43.06.453.csv'
+1.3566 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+1.4512 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+1.4513 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
