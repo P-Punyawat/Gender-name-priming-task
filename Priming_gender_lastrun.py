@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2025.1.1),
-    on ??????? 26, 2025, at 10:28
+    on ??????? 29, 2025, at 13:24
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -137,7 +137,7 @@ def setupData(expInfo, dataDir=None):
     thisExp = data.ExperimentHandler(
         name=expName, version=expVersion,
         extraInfo=expInfo, runtimeInfo=None,
-        originPath='C:\\Users\\engpc\\Downloads\\Pilot26_sep\\Priming_gender_lastrun.py',
+        originPath='C:\\Users\\NARONG\\Downloads\\Gender-name-priming-task-main\\Priming_gender_lastrun.py',
         savePickle=True, saveWideText=True,
         dataFileName=dataDir + os.sep + filename, sortColumns='time'
     )
@@ -424,6 +424,13 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         color='white', colorSpace='rgb', opacity=None, 
         languageStyle='LTR',
         depth=-1.0);
+    fixation = visual.ShapeStim(
+        win=win, name='fixation',
+        size=(0.1, 0.1), vertices='circle',
+        ori=0.0, pos=(0, 0), draggable=True, anchor='center',
+        lineWidth=1.0,
+        colorSpace='rgb', lineColor='white', fillColor=[-1.0000, -1.0000, 1.0000],
+        opacity=None, depth=-2.0, interpolate=True)
     pic = visual.ImageStim(
         win=win,
         name='pic', units='norm', 
@@ -431,7 +438,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         ori=0.0, pos=(0.0, 0.0), draggable=False, size=(1.2, 1.2),
         color=[1,1,1], colorSpace='rgb', opacity=None,
         flipHoriz=False, flipVert=False,
-        texRes=128.0, interpolate=True, depth=-2.0)
+        texRes=128.0, interpolate=True, depth=-3.0)
     key_resp = keyboard.Keyboard(deviceName='key_resp')
     error_feedback = visual.ShapeStim(
         win=win, name='error_feedback', vertices='cross',units='norm', 
@@ -439,7 +446,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         ori=45.0, pos=(0, 0), draggable=False, anchor='center',
         lineWidth=1.0,
         colorSpace='rgb', lineColor='red', fillColor='red',
-        opacity=None, depth=-4.0, interpolate=True)
+        opacity=None, depth=-5.0, interpolate=True)
     # Run 'Begin Experiment' code from code
     
     
@@ -723,7 +730,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         # create an object to store info about Routine training_block
         training_block = data.Routine(
             name='training_block',
-            components=[MAN, WOMAN, pic, key_resp, error_feedback],
+            components=[MAN, WOMAN, fixation, pic, key_resp, error_feedback],
         )
         training_block.status = NOT_STARTED
         continueRoutine = True
@@ -806,10 +813,44 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
                 # update params
                 pass
             
+            # *fixation* updates
+            
+            # if fixation is starting this frame...
+            if fixation.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+                # keep track of start time/frame for later
+                fixation.frameNStart = frameN  # exact frame index
+                fixation.tStart = t  # local t and not account for scr refresh
+                fixation.tStartRefresh = tThisFlipGlobal  # on global time
+                win.timeOnFlip(fixation, 'tStartRefresh')  # time at next scr refresh
+                # add timestamp to datafile
+                thisExp.timestampOnFlip(win, 'fixation.started')
+                # update status
+                fixation.status = STARTED
+                fixation.setAutoDraw(True)
+            
+            # if fixation is active this frame...
+            if fixation.status == STARTED:
+                # update params
+                pass
+            
+            # if fixation is stopping this frame...
+            if fixation.status == STARTED:
+                # is it time to stop? (based on global clock, using actual start)
+                if tThisFlipGlobal > fixation.tStartRefresh + 0.3-frameTolerance:
+                    # keep track of stop time/frame for later
+                    fixation.tStop = t  # not accounting for scr refresh
+                    fixation.tStopRefresh = tThisFlipGlobal  # on global time
+                    fixation.frameNStop = frameN  # exact frame index
+                    # add timestamp to datafile
+                    thisExp.timestampOnFlip(win, 'fixation.stopped')
+                    # update status
+                    fixation.status = FINISHED
+                    fixation.setAutoDraw(False)
+            
             # *pic* updates
             
             # if pic is starting this frame...
-            if pic.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+            if pic.status == NOT_STARTED and tThisFlip >= 0.3-frameTolerance:
                 # keep track of start time/frame for later
                 pic.frameNStart = frameN  # exact frame index
                 pic.tStart = t  # local t and not account for scr refresh
