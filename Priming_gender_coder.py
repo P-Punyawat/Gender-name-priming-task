@@ -46,9 +46,17 @@ k_key_id = 82
 win = visual.Window([1920,1080],screen=1, units="norm", fullscr=False, color='white')
 Priming_Name = TextBox2(win, text='', pos=(0,0), font='Noto Sans Thai', color='black',anchor='center',alignment='center',letterHeight=0.3, units='norm')
 Priming_Face = visual.ImageStim(win, image=None, pos=(0,0), size=(1,1))
-instruction_slide_2 = visual.ImageStim(
+training_instruction_slide = visual.ImageStim(
         win=win,
-        name='instruction_slide_2', units='norm', 
+        name='training_instruction_slide', units='norm', 
+        image='training_instruction_mw.png', mask=None, anchor='center',
+        ori=0.0, pos=(0, 0), draggable=True, size=(2, 2),
+        color=[1,1,1], colorSpace='rgb', opacity=None,
+        flipHoriz=False, flipVert=False,
+        texRes=128.0, interpolate=True, depth=0.0)
+priming_instruction_slide = visual.ImageStim(
+        win=win,
+        name='priming_instruction_slide', units='norm', 
         image='priming_instruction_mw.png', mask=None, anchor='center',
         ori=0.0, pos=(0, 0), draggable=True, size=(2, 2),
         color=[1,1,1], colorSpace='rgb', opacity=None,
@@ -130,7 +138,7 @@ for face_file in training_faces:
     
     core.wait(0.5)  # inter-trial interval
     
-instruction_slide_2.draw()
+priming_instruction_slide.draw()
 win.flip()
 
 # Wait for SPACE key to continue
