@@ -49,7 +49,7 @@ Priming_Face = visual.ImageStim(win, image=None, pos=(0,0), size=(1,1))
 instruction_slide_2 = visual.ImageStim(
         win=win,
         name='instruction_slide_2', units='norm', 
-        image='Instruction_white_2.png', mask=None, anchor='center',
+        image='Priming_instruction_mw.png', mask=None, anchor='center',
         ori=0.0, pos=(0, 0), draggable=True, size=(2, 2),
         color=[1,1,1], colorSpace='rgb', opacity=None,
         flipHoriz=False, flipVert=False,
