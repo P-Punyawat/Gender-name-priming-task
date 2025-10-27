@@ -49,7 +49,7 @@ Priming_Face = visual.ImageStim(win, image=None, pos=(0,0), size=(1,1))
 training_instruction_slide = visual.ImageStim(
         win=win,
         name='training_instruction_slide', units='norm', 
-        image='training_instruction_mw.png', mask=None, anchor='center',
+        image='Instruction/training_instruction_wm.png', mask=None, anchor='center',
         ori=0.0, pos=(0, 0), draggable=True, size=(2, 2),
         color=[1,1,1], colorSpace='rgb', opacity=None,
         flipHoriz=False, flipVert=False,
@@ -57,7 +57,7 @@ training_instruction_slide = visual.ImageStim(
 priming_instruction_slide = visual.ImageStim(
         win=win,
         name='priming_instruction_slide', units='norm', 
-        image='priming_instruction_mw.png', mask=None, anchor='center',
+        image='Instruction/priming_instruction_wm.png', mask=None, anchor='center',
         ori=0.0, pos=(0, 0), draggable=True, size=(2, 2),
         color=[1,1,1], colorSpace='rgb', opacity=None,
         flipHoriz=False, flipVert=False,
@@ -65,7 +65,7 @@ priming_instruction_slide = visual.ImageStim(
 MAN_3 = visual.TextStim(win=win, name='MAN_3',
         text='MAN',
         font='Arial',
-        units='norm', pos=(-0.8, 0.8), draggable=False, height=0.1, wrapWidth=None, ori=0.0, 
+        units='norm', pos=(0.8, 0.8), draggable=False, height=0.1, wrapWidth=None, ori=0.0, 
         color='black', colorSpace='rgb', opacity=None, 
         languageStyle='LTR',
         depth=-1.0);
@@ -79,7 +79,7 @@ MAN_3_desc = visual.TextStim(win=win, name='MAN_3_desc',
 WOMAN_3 = visual.TextStim(win=win, name='WOMAN_3',
         text='WOMAN',
         font='Arial',
-        units='norm', pos=(0.8, 0.8), draggable=False, height=0.1, wrapWidth=None, ori=0.0, 
+        units='norm', pos=(-0.8, 0.8), draggable=False, height=0.1, wrapWidth=None, ori=0.0, 
         color='black', colorSpace='rgb', opacity=None, 
         languageStyle='LTR',
         depth=-3.0);
@@ -239,14 +239,14 @@ for current_face, current_name, name_gender in remaining_trials:
         win.flip()
 
         # RESPONSE
-        keys = event.getKeys(keyList=['j', 'k'], timeStamped=globalClock)
+        keys = event.getKeys(keyList=['j', 'k'], timeStamped=globalClock) # In training we used waitKeys
         if keys and not trial_ended:
             response_key, key_time = keys[0]
             rt = key_time - face_onset_time if face_onset_time else None
-            if keys == 'j':
+            if keys[0][0] == 'j':
                 send_trigger(j_key_id)   # arbitrary trigger code for J key
                 print(f"Key pressed: {j_key_id}")
-            elif keys == 'k':
+            elif keys[0][0] == 'k':
                 send_trigger(k_key_id)
                 print(f"Key pressed: {k_key_id}")
 #            outlet.push_sample([end_trial_code])
@@ -263,7 +263,7 @@ for current_face, current_name, name_gender in remaining_trials:
             and not trial_ended
         ):
             insert_index = random.randint(0, len(remaining_trials))
-            remaining_trials.insert(insert_index, (current_name, current_face, name_gender))
+            remaining_trials.insert(insert_index, (current_face, current_name, name_gender))
 #            outlet.push_sample([end_trial_code])
             send_trigger(timeout_code)
             print("End-of-Trial Trigger sent (timeout):", end_trial_code)
