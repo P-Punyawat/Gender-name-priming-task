@@ -117,6 +117,29 @@ def send_trigger(code):
         print(f"LSL trigger failed: {e}")
 
     print(f"Trigger sent: {code}")
+    
+# --- SHOW TRAINING INSTRUCTION FIRST ---
+training_instruction_slide.draw()
+win.flip()
+
+# Wait for SPACE key to start training
+print("Showing training instruction... (Press SPACE to start training)")
+
+while True:
+    keys = event.getKeys(keyList=['space', 'escape'])
+    if 'escape' in keys:
+        thisExp.saveAsWideText(filename + '.csv')
+        thisExp.saveAsPickle(filename)
+        thisExp.abort()
+        core.quit()
+    elif 'space' in keys:
+        print("SPACE pressed — starting training.")
+        break
+    core.wait(0.01)
+
+# Clear the screen briefly
+win.flip()
+core.wait(0.2)
 
 for face_file in training_faces:
     Priming_Face.setImage(os.path.join(face_path, face_file))
